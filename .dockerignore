@@ -1,0 +1,12 @@
+.git
+.cursor
+App
+**/node_modules
+**/.venv
+**/dist
+**/*.pdf
+**/*.pptx
+web/README.md
+web/README-SSL.md
+web/_viewport-mobile-narrow.png
+agent-transcripts

@@ -1,0 +1,23 @@
+{
+  "name": "BAANYARD บ้านญาติ",
+  "short_name": "BAANYARD",
+  "description": "BAANYARD บ้านญาติ — the kinship marketplace, by Campong Innovation",
+  "start_url": "/projects/baanyard/",
+  "scope": "/projects/baanyard/",
+  "display": "standalone",
+  "lang": "th",
+  "background_color": "#e8eef5",
+  "theme_color": "#2f4663",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png?v=20260916a",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.png?v=20260916a",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}

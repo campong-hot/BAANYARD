@@ -1,0 +1,1785 @@
+{
+  "simulated": true,
+  "disclaimerEn": "Simulated / Demo only. Not a real securities offering. Profit-share figures are illustrative. No real payments.",
+  "disclaimerTh": "จำลอง/เดโมเท่านั้น ไม่ใช่การเสนอขายหลักทรัพย์จริง ส่วนแบ่งกำไรเป็นตัวอย่างประกอบ ไม่มีการชำระเงินจริง",
+  "provinces": [
+    {
+      "id": "sakon-nakhon",
+      "name": "Sakon Nakhon",
+      "nameTh": "สกลนคร",
+      "localName": "Sri Songkhram",
+      "localNameTh": "ศรีสงคราม",
+      "communityId": "sri-songkhram",
+      "products": [
+        {
+          "id": "skn-sato",
+          "image": "images/chain-skn-sato.png",
+          "name": "Special-care rice → premium Sato",
+          "nameTh": "ข้าวพันธุ์พิเศษดูแลเข้ม → สาโทพรีเมียม",
+          "crop": "Heirloom sticky rice (special care)",
+          "cropTh": "ข้าวเหนียวพันธุ์พิเศษ (ดูแลเข้ม)",
+          "story": "A tourist-investor pre-orders a small lot of special rice. Village growers tend it, the community enterprise ferments premium Sato (rice wine), a registered packaging shop bottles it, then it ships to the investor or a registered shop. When sold, cost and profit split back along the chain — Simulated.",
+          "storyTh": "นักท่องเที่ยว/นักลงทุนสั่งจองข้าวพันธุ์พิเศษล่วงหน้า กลุ่มชาวนาดูแลแปลง วิสาหกิจชุมชนหมักเป็นสาโทพรีเมียม ร้านบรรจุภัณฑ์ขึ้นทะเบียนบรรจุขวด แล้วส่งถึงผู้สั่งหรือร้านค้าขึ้นทะเบียน เมื่อขายได้จึงแบ่งต้นทุนและกำไรกลับตามโซ่ — จำลอง",
+          "preOrderAmount": 12000,
+          "farmerShare": 35,
+          "processorShare": 25,
+          "packagerShare": 15,
+          "investorShare": 25,
+          "status": "growing",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Sri Songkhram rice growers group",
+              "nameTh": "กลุ่มชาวนาศรีสงคราม"
+            },
+            {
+              "role": "processor",
+              "name": "Community Sato enterprise",
+              "nameTh": "วิสาหกิจชุมชนสาโท"
+            },
+            {
+              "role": "packager",
+              "name": "Registered bottle & label shop",
+              "nameTh": "ร้านบรรจุภัณฑ์ขึ้นทะเบียน"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Registered barn shop",
+              "nameTh": "ร้านบ้านญาติขึ้นทะเบียน"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Planting",
+              "labelTh": "ปลูก",
+              "date": "2026-06-08"
+            },
+            {
+              "id": "harvest",
+              "label": "Harvest",
+              "labelTh": "เก็บเกี่ยว",
+              "date": "2026-11-18"
+            },
+            {
+              "id": "process",
+              "label": "Ferment Sato",
+              "labelTh": "หมักสาโท",
+              "date": "2026-12-05"
+            },
+            {
+              "id": "pack",
+              "label": "Pack & label",
+              "labelTh": "บรรจุและติดฉลาก",
+              "date": "2027-01-12"
+            },
+            {
+              "id": "ship",
+              "label": "Ship to buyer / shop",
+              "labelTh": "จัดส่งผู้สั่ง / ร้าน",
+              "date": "2027-01-26"
+            }
+          ]
+        },
+        {
+          "id": "skn-indigo",
+          "image": "images/chain-skn-indigo.png",
+          "name": "River indigo textile lot",
+          "nameTh": "ล็อตผ้าย้อมครามริมน้ำ",
+          "crop": "Indigo leaf & yarn",
+          "cropTh": "ใบครามและเส้นด้าย",
+          "story": "Pre-order a small indigo cloth run: growers tend vats, a weaver-processor dyes and weaves, a registered pack shop folds and tags, then delivery to the buyer or a shop — Simulated.",
+          "storyTh": "สั่งผลิตผ้าครามล็อตเล็ก: กลุ่มย้อมครามดูแลหม้อคราม กลุ่มทอแปรรูป ร้านบรรจุพับติดแท็ก แล้วส่งถึงผู้สั่งหรือร้านค้า — จำลอง",
+          "preOrderAmount": 6800,
+          "farmerShare": 32,
+          "processorShare": 28,
+          "packagerShare": 18,
+          "investorShare": 22,
+          "status": "open",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Indigo growers cooperative",
+              "nameTh": "สหกรณ์ผู้ปลูกคราม"
+            },
+            {
+              "role": "processor",
+              "name": "Village weave & dye house",
+              "nameTh": "กลุ่มทอและย้อมบ้าน"
+            },
+            {
+              "role": "packager",
+              "name": "Textile wrap shop (registered)",
+              "nameTh": "ร้านห่อผ้าขึ้นทะเบียน"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Craft shop on the walkway",
+              "nameTh": "ร้านฝีมือริมทางเดิน"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Grow indigo",
+              "labelTh": "ปลูกคราม",
+              "date": "2026-07-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Harvest leaf",
+              "labelTh": "เก็บใบ",
+              "date": "2026-10-10"
+            },
+            {
+              "id": "process",
+              "label": "Dye & weave",
+              "labelTh": "ย้อมและทอ",
+              "date": "2026-11-01"
+            },
+            {
+              "id": "pack",
+              "label": "Fold & tag",
+              "labelTh": "พับและติดแท็ก",
+              "date": "2026-11-20"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-11-28"
+            }
+          ]
+        },
+        {
+          "id": "skn-plara",
+          "image": "images/chain-skn-plara.png",
+          "name": "Premium pla ra (aged)",
+          "nameTh": "ปลาร้าพรีเมียมบ่มนาน",
+          "crop": "River fish & rice bran",
+          "cropTh": "ปลาน้ำจืดและรำข้าว",
+          "story": "Capital sent to a fisher-farmer group for a small aged pla ra lot. Community processors ferment, a pack shop jars it, then it reaches the investor or a registered kitchen shop — Simulated.",
+          "storyTh": "ส่งทุนให้กลุ่มหาปลา-ชาวนาสำหรับปลาร้าบ่มล็อตเล็ก กลุ่มแปรรูปหมัก ร้านบรรจุใส่โหล แล้วถึงผู้สั่งหรือร้านครัวขึ้นทะเบียน — จำลอง",
+          "preOrderAmount": 4500,
+          "farmerShare": 38,
+          "processorShare": 24,
+          "packagerShare": 16,
+          "investorShare": 22,
+          "status": "funded",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Fisher-farmer group",
+              "nameTh": "กลุ่มหาปลา-ชาวนา"
+            },
+            {
+              "role": "processor",
+              "name": "Aged pla ra kitchen",
+              "nameTh": "ครัวปลาร้าบ่ม"
+            },
+            {
+              "role": "packager",
+              "name": "Jar & seal shop",
+              "nameTh": "ร้านโหลและซีล"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Catch & salt",
+              "labelTh": "จับและหมักเกลือ",
+              "date": "2026-08-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Age check",
+              "labelTh": "ตรวจบ่ม",
+              "date": "2027-02-01"
+            },
+            {
+              "id": "process",
+              "label": "Finish ferment",
+              "labelTh": "หมักจนได้ที่",
+              "date": "2027-03-01"
+            },
+            {
+              "id": "pack",
+              "label": "Jar",
+              "labelTh": "บรรจุโหล",
+              "date": "2027-03-15"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2027-03-22"
+            }
+          ]
+        },
+        {
+          "id": "skn-naga-rice",
+          "image": "images/chain-skn-naga-rice.png",
+          "name": "Naga's Fang heirloom rice",
+          "nameTh": "ข้าวเขี้ยวนาค",
+          "crop": "Rare heirloom rice (Naga's Fang variety)",
+          "cropTh": "ข้าวเหนียวพันธุ์เขี้ยวนาคดั้งเดิม",
+          "story": "A near-lost wetland heirloom named for its long, curved grain — said to resemble a Naga's fang. Sri Songkhram seed-keepers replant it with prospective variety-trial support from Sakon Nakhon Rice Research Center, a village mill hand-polishes each lot, and a registered pack shop seals it with a Digital Passport preview — traceability preview only, Simulated.",
+          "storyTh": "ข้าวพันธุ์ดั้งเดิมพื้นที่ชุ่มน้ำที่ใกล้สูญพันธุ์ ตั้งชื่อจากเมล็ดยาวโค้งคล้ายเขี้ยวนาค กลุ่มผู้รักษาเมล็ดพันธุ์ศรีสงครามปลูกฟื้นสายพันธุ์ โดยมีศูนย์วิจัยข้าวสกลนครสนับสนุนทดลองสายพันธุ์ (อยู่ระหว่างเจรจา) โรงสีหมู่บ้านขัดด้วยมือทุกล็อต และร้านบรรจุขึ้นทะเบียนซีลพร้อมตัวอย่าง Digital Passport — ตัวอย่างตรวจสอบย้อนกลับเท่านั้น จำลอง",
+          "preOrderAmount": 15000,
+          "farmerShare": 40,
+          "processorShare": 22,
+          "packagerShare": 13,
+          "investorShare": 25,
+          "status": "open",
+          "kinshipCharter": true,
+          "certifiedBy": "Sakon Nakhon Rice Research Center — variety trial (prospective, not yet signed)",
+          "certifiedByTh": "ศูนย์วิจัยข้าวสกลนคร — ทดลองสายพันธุ์ (กำลังเจรจา ยังไม่ลงนาม)",
+          "passportOrigin": "Wetland paddy plots along the Songkhram river, Sri Songkhram district",
+          "passportOriginTh": "แปลงนาชุ่มน้ำริมแม่น้ำสงคราม อำเภอศรีสงคราม",
+          "passportProcess": "Hand-transplanted, low-chemical care, village hand-mill polish, community guardian check before packing",
+          "passportProcessTh": "ปักดำด้วยมือ ดูแลแบบลดใช้เคมี โรงสีหมู่บ้านขัดมือ ตรวจคุณภาพโดยผู้พิทักษ์ชุมชนก่อนบรรจุ",
+          "passportImpact": "Keeps a near-lost heirloom variety in active cultivation and returns a disclosed share to the growers who kept the seed alive",
+          "passportImpactTh": "รักษาสายพันธุ์ดั้งเดิมที่ใกล้สูญไว้ในระบบเพาะปลูก และคืนส่วนแบ่งที่เปิดเผยให้ชาวนาที่รักษาเมล็ดพันธุ์ไว้",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Sri Songkhram heirloom seed-keepers",
+              "nameTh": "กลุ่มผู้รักษาเมล็ดพันธุ์ศรีสงคราม"
+            },
+            {
+              "role": "guardian",
+              "name": "Village อสม. quality guardian",
+              "nameTh": "อสม. ผู้พิทักษ์คุณภาพหมู่บ้าน"
+            },
+            {
+              "role": "processor",
+              "name": "Village hand-mill",
+              "nameTh": "โรงสีมือหมู่บ้าน"
+            },
+            {
+              "role": "packager",
+              "name": "Registered pack & passport shop",
+              "nameTh": "ร้านบรรจุและออกพาสปอร์ตขึ้นทะเบียน"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Registered barn shop",
+              "nameTh": "ร้านบ้านญาติขึ้นทะเบียน"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Transplant",
+              "labelTh": "ปักดำ",
+              "date": "2026-07-05"
+            },
+            {
+              "id": "harvest",
+              "label": "Harvest",
+              "labelTh": "เก็บเกี่ยว",
+              "date": "2026-12-01"
+            },
+            {
+              "id": "process",
+              "label": "Hand-mill",
+              "labelTh": "สีมือ",
+              "date": "2026-12-10"
+            },
+            {
+              "id": "pack",
+              "label": "Pack & passport",
+              "labelTh": "บรรจุและออกพาสปอร์ต",
+              "date": "2026-12-20"
+            },
+            {
+              "id": "ship",
+              "label": "Ship to buyer / shop",
+              "labelTh": "จัดส่งผู้สั่ง / ร้าน",
+              "date": "2027-01-05"
+            }
+          ]
+        },
+        {
+          "id": "skn-naga-drop",
+          "image": "images/chain-skn-naga-drop.png",
+          "name": "Naga's Grace herbal tonic drop",
+          "nameTh": "หยดปิตินาคา",
+          "crop": "Riverside medicinal herb blend",
+          "cropTh": "สมุนไพรริมน้ำสงคราม",
+          "story": "A small-batch fermented herbal tonic from riverside medicinal plants long used by Sri Songkhram elders, reformulated with a prospective food-science university partner for consistent dosing in a dropper bottle. This is traditional wellness knowledge, not medical advice — no health claims until a named lab signs off. Simulated preview.",
+          "storyTh": "ยาหยดสมุนไพรหมักล็อตเล็กจากพืชสมุนไพรริมแม่น้ำสงครามที่ผู้เฒ่าในชุมชนใช้มานาน ปรับสูตรร่วมกับพันธมิตรมหาวิทยาลัยด้านวิทยาศาสตร์อาหาร (อยู่ระหว่างเจรจา) เพื่อควบคุมปริมาณให้สม่ำเสมอในขวดหยด นี่คือภูมิปัญญาสุขภาพดั้งเดิม ไม่ใช่คำแนะนำทางการแพทย์ — ไม่มีการกล่าวอ้างสรรพคุณจนกว่าจะมีห้องแล็บที่ระบุชื่อรับรอง ตัวอย่างจำลอง",
+          "preOrderAmount": 5600,
+          "farmerShare": 38,
+          "processorShare": 26,
+          "packagerShare": 14,
+          "investorShare": 22,
+          "status": "growing",
+          "kinshipCharter": true,
+          "certifiedBy": "Kasetsart University / RMUTI food-science lab — quality certification (prospective, not yet signed)",
+          "certifiedByTh": "ห้องแล็บวิทยาศาสตร์อาหาร มหาวิทยาลัยเกษตรศาสตร์ / มทร.อีสาน — รับรองคุณภาพ (กำลังเจรจา ยังไม่ลงนาม)",
+          "passportOrigin": "Riverside herb gardens tended by community elders, Sri Songkhram",
+          "passportOriginTh": "สวนสมุนไพรริมน้ำที่ผู้เฒ่าในชุมชนดูแล ศรีสงคราม",
+          "passportProcess": "Elder-guided harvest, community ferment house, guardian residue check, dropper-bottle fill by a registered pack shop",
+          "passportProcessTh": "เก็บตามคำแนะนำผู้เฒ่า หมักที่โรงหมักชุมชน ผู้พิทักษ์ตรวจสารตกค้าง บรรจุขวดหยดโดยร้านขึ้นทะเบียน",
+          "passportImpact": "Documents and pays for elder herbal knowledge, while a university partner works toward a real quality certificate",
+          "passportImpactTh": "บันทึกและจ่ายค่าตอบแทนภูมิปัญญาสมุนไพรของผู้เฒ่า พร้อมพันธมิตรมหาวิทยาลัยที่กำลังผลักดันใบรับรองคุณภาพจริง",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Riverside herb elders group",
+              "nameTh": "กลุ่มผู้เฒ่าสมุนไพรริมน้ำ"
+            },
+            {
+              "role": "guardian",
+              "name": "Village อสม. quality guardian",
+              "nameTh": "อสม. ผู้พิทักษ์คุณภาพหมู่บ้าน"
+            },
+            {
+              "role": "processor",
+              "name": "Community ferment house",
+              "nameTh": "โรงหมักชุมชน"
+            },
+            {
+              "role": "packager",
+              "name": "Dropper-bottle pack shop (registered)",
+              "nameTh": "ร้านบรรจุขวดหยดขึ้นทะเบียน"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Herb tending",
+              "labelTh": "ดูแลสมุนไพร",
+              "date": "2026-06-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Harvest",
+              "labelTh": "เก็บ",
+              "date": "2026-09-01"
+            },
+            {
+              "id": "process",
+              "label": "Ferment",
+              "labelTh": "หมัก",
+              "date": "2026-09-10"
+            },
+            {
+              "id": "pack",
+              "label": "Bottle",
+              "labelTh": "บรรจุขวด",
+              "date": "2026-09-25"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-10-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "loei",
+      "name": "Loei",
+      "nameTh": "เลย",
+      "localName": "Chiang Khan",
+      "localNameTh": "เชียงคาน",
+      "communityId": "chiang-khan",
+      "products": [
+        {
+          "id": "lei-fishsauce",
+          "image": "images/chain-lei-fishsauce.png",
+          "name": "Mekong fish sauce (small lot)",
+          "nameTh": "น้ำปลาโขงล็อตเล็ก",
+          "crop": "River fish",
+          "cropTh": "ปลาน้ำโขง",
+          "story": "Order a small Mekong fish-sauce run from boat families, a riverside processor, and a registered bottle shop — Simulated, no middlemen.",
+          "storyTh": "สั่งผลิตน้ำปลาโขงล็อตเล็กจากครอบครัวเรือ กลุ่มแปรรูปริมโขง และร้านบรรจุขวดขึ้นทะเบียน — จำลอง ไม่ผ่านคนกลาง",
+          "preOrderAmount": 5200,
+          "farmerShare": 36,
+          "processorShare": 26,
+          "packagerShare": 16,
+          "investorShare": 22,
+          "status": "open",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Chiang Khan boat families",
+              "nameTh": "ครอบครัวเรือเชียงคาน"
+            },
+            {
+              "role": "processor",
+              "name": "Riverside fish-sauce house",
+              "nameTh": "โรงน้ำปลาริมโขง"
+            },
+            {
+              "role": "packager",
+              "name": "Bottle shop (registered)",
+              "nameTh": "ร้านบรรจุขวดขึ้นทะเบียน"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Walking-street pantry",
+              "nameTh": "ร้านเครื่องครัวถนนคนเดิน"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Catch window",
+              "labelTh": "ช่วงจับปลา",
+              "date": "2026-09-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Salt & rest",
+              "labelTh": "หมักเกลือ",
+              "date": "2026-10-15"
+            },
+            {
+              "id": "process",
+              "label": "Press sauce",
+              "labelTh": "คั้นน้ำปลา",
+              "date": "2027-03-01"
+            },
+            {
+              "id": "pack",
+              "label": "Bottle",
+              "labelTh": "บรรจุขวด",
+              "date": "2027-03-20"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2027-03-28"
+            }
+          ]
+        },
+        {
+          "id": "lei-herb",
+          "image": "images/chain-lei-herb.png",
+          "name": "Porch herbal tea blend",
+          "nameTh": "ชาสมุนไพรระเบียงบ้าน",
+          "crop": "Garden herbs",
+          "cropTh": "สมุนไพรสวนบ้าน",
+          "story": "Forward-purchase a dried herbal tea blend from Mekong gardens, a solar dryer, and a pack shop — Simulated.",
+          "storyTh": "จองล่วงหน้าชาสมุนไพรตากแห้งจากสวนริมโขง โรงตากพลังงานแสง และร้านบรรจุ — จำลอง",
+          "preOrderAmount": 2800,
+          "farmerShare": 40,
+          "processorShare": 22,
+          "packagerShare": 18,
+          "investorShare": 20,
+          "status": "packing",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Porch garden group",
+              "nameTh": "กลุ่มสวนระเบียง"
+            },
+            {
+              "role": "processor",
+              "name": "Solar dryer coop",
+              "nameTh": "สหกรณ์โรงตากแสง"
+            },
+            {
+              "role": "packager",
+              "name": "Tea pouch shop",
+              "nameTh": "ร้านซองชา"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Tend herbs",
+              "labelTh": "ดูแลแปลงสมุนไพร",
+              "date": "2026-05-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Pick leaves",
+              "labelTh": "เก็บใบ",
+              "date": "2026-08-10"
+            },
+            {
+              "id": "process",
+              "label": "Dry & blend",
+              "labelTh": "ตากและผสม",
+              "date": "2026-08-20"
+            },
+            {
+              "id": "pack",
+              "label": "Pouch",
+              "labelTh": "ใส่ซอง",
+              "date": "2026-09-01"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-09-08"
+            }
+          ]
+        },
+        {
+          "id": "lei-honey",
+          "image": "images/chain-lei-honey.png",
+          "name": "Hill-edge wildflower honey",
+          "nameTh": "น้ำผึ้งดอกไม้เชิงเขา",
+          "crop": "Wildflower nectar",
+          "cropTh": "น้ำหวานดอกไม้ป่า",
+          "story": "Send working capital to beekeepers; a micro-processor filters; a glass-jar shop packs — Simulated.",
+          "storyTh": "ส่งทุนหมุนเวียนให้กลุ่มเลี้ยงผึ้ง ผู้แปรรูปขนาดเล็กกรอง ร้านโหลแก้วบรรจุ — จำลอง",
+          "preOrderAmount": 3600,
+          "farmerShare": 42,
+          "processorShare": 20,
+          "packagerShare": 16,
+          "investorShare": 22,
+          "status": "open",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Hill-edge beekeepers",
+              "nameTh": "กลุ่มเลี้ยงผึ้งเชิงเขา"
+            },
+            {
+              "role": "processor",
+              "name": "Gentle filter kitchen",
+              "nameTh": "ครัวกรองแบบอ่อนโยน"
+            },
+            {
+              "role": "packager",
+              "name": "Glass jar shop",
+              "nameTh": "ร้านโหลแก้ว"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Breakfast barn",
+              "nameTh": "โรงนามื้อเช้า"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Hive season",
+              "labelTh": "ฤดูรัง",
+              "date": "2026-11-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Harvest honey",
+              "labelTh": "เก็บน้ำผึ้ง",
+              "date": "2027-02-15"
+            },
+            {
+              "id": "process",
+              "label": "Filter",
+              "labelTh": "กรอง",
+              "date": "2027-02-20"
+            },
+            {
+              "id": "pack",
+              "label": "Jar",
+              "labelTh": "บรรจุโหล",
+              "date": "2027-02-28"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2027-03-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nan",
+      "name": "Nan",
+      "nameTh": "น่าน",
+      "localName": "Orchard hills",
+      "localNameTh": "สวนผลไม้เนินน่าน",
+      "communityId": "nan-orchard",
+      "products": [
+        {
+          "id": "nan-cocoa",
+          "image": "images/chain-nan-cocoa.png",
+          "name": "Garden cocoa (fermented)",
+          "nameTh": "โกโก้สวนหมัก",
+          "crop": "Cocoa pods",
+          "cropTh": "ฝักโกโก้",
+          "story": "Pre-order fermented cocoa from orchard families, a fermenter-dryer, and a pack shop — Simulated.",
+          "storyTh": "จองโกโก้หมักจากครอบครัวสวน โรงหมัก-ตาก และร้านบรรจุ — จำลอง",
+          "preOrderAmount": 9000,
+          "farmerShare": 34,
+          "processorShare": 28,
+          "packagerShare": 14,
+          "investorShare": 24,
+          "status": "processing",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Nan orchard families",
+              "nameTh": "ครอบครัวสวนน่าน"
+            },
+            {
+              "role": "processor",
+              "name": "Cocoa fermenter & dryer",
+              "nameTh": "โรงหมักและตากโกโก้"
+            },
+            {
+              "role": "packager",
+              "name": "Bean bag shop",
+              "nameTh": "ร้านบรรจุถุงเมล็ด"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Hill café shop",
+              "nameTh": "ร้านคาเฟ่เนินเขา"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Pod care",
+              "labelTh": "ดูแลฝัก",
+              "date": "2026-04-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Harvest pods",
+              "labelTh": "เก็บฝัก",
+              "date": "2026-10-01"
+            },
+            {
+              "id": "process",
+              "label": "Ferment & dry",
+              "labelTh": "หมักและตาก",
+              "date": "2026-10-12"
+            },
+            {
+              "id": "pack",
+              "label": "Bag beans",
+              "labelTh": "บรรจุเมล็ด",
+              "date": "2026-11-01"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-11-10"
+            }
+          ]
+        },
+        {
+          "id": "nan-preserve",
+          "image": "images/chain-nan-preserve.png",
+          "name": "Orchard fruit preserve",
+          "nameTh": "แยมผลไม้สวนเนิน",
+          "crop": "Seasonal orchard fruit",
+          "cropTh": "ผลไม้ตามฤดู",
+          "story": "A small preserve run: pickers, a kettle kitchen, a jar shop — sold without middlemen — Simulated.",
+          "storyTh": "ล็อตแยมเล็ก: คนเก็บผล ครัวหม้อเคี่ยว ร้านโหล — ขายโดยไม่ผ่านคนกลาง — จำลอง",
+          "preOrderAmount": 3200,
+          "farmerShare": 37,
+          "processorShare": 25,
+          "packagerShare": 18,
+          "investorShare": 20,
+          "status": "open",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Hill fruit pickers",
+              "nameTh": "กลุ่มเก็บผลไม้เนิน"
+            },
+            {
+              "role": "processor",
+              "name": "Kettle preserve kitchen",
+              "nameTh": "ครัวเคี่ยวแยม"
+            },
+            {
+              "role": "packager",
+              "name": "Jar label shop",
+              "nameTh": "ร้านโหลติดฉลาก"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Fruit set",
+              "labelTh": "ติดผล",
+              "date": "2026-03-15"
+            },
+            {
+              "id": "harvest",
+              "label": "Pick fruit",
+              "labelTh": "เก็บผล",
+              "date": "2026-06-01"
+            },
+            {
+              "id": "process",
+              "label": "Cook preserve",
+              "labelTh": "เคี่ยวแยม",
+              "date": "2026-06-05"
+            },
+            {
+              "id": "pack",
+              "label": "Jar",
+              "labelTh": "บรรจุโหล",
+              "date": "2026-06-12"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-06-18"
+            }
+          ]
+        },
+        {
+          "id": "nan-coffee",
+          "image": "images/chain-nan-coffee.png",
+          "name": "Mist-hill coffee (washed)",
+          "nameTh": "กาแฟเนินหมอกล้างเมล็ด",
+          "crop": "Arabica cherry",
+          "cropTh": "เชอร์รีอาราบิกา",
+          "story": "Forward-buy a washed coffee micro-lot from hill growers, a mill, and a pack shop — Simulated.",
+          "storyTh": "ซื้อล่วงหน้ากาแฟล็อตเล็กแบบล้างเมล็ดจากชาวสวนเนิน โรงสี และร้านบรรจุ — จำลอง",
+          "preOrderAmount": 7500,
+          "farmerShare": 33,
+          "processorShare": 27,
+          "packagerShare": 15,
+          "investorShare": 25,
+          "status": "growing",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Mist-hill coffee group",
+              "nameTh": "กลุ่มกาแฟเนินหมอก"
+            },
+            {
+              "role": "processor",
+              "name": "Village wet mill",
+              "nameTh": "โรงสีแบบเปียกของหมู่บ้าน"
+            },
+            {
+              "role": "packager",
+              "name": "Valve-bag shop",
+              "nameTh": "ร้านถุงวาล์ว"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Registered pour-over stall",
+              "nameTh": "ร้านดริปขึ้นทะเบียน"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Cherry care",
+              "labelTh": "ดูแลเชอร์รี",
+              "date": "2026-05-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Pick cherry",
+              "labelTh": "เก็บเชอร์รี",
+              "date": "2026-12-01"
+            },
+            {
+              "id": "process",
+              "label": "Wash & dry",
+              "labelTh": "ล้างและตาก",
+              "date": "2026-12-08"
+            },
+            {
+              "id": "pack",
+              "label": "Bag green",
+              "labelTh": "บรรจุสาร",
+              "date": "2027-01-10"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2027-01-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phayao",
+      "name": "Phayao",
+      "nameTh": "พะเยา",
+      "localName": "Lake villages",
+      "localNameTh": "หมู่บ้านริมกว๊าน",
+      "communityId": "phayao-lake",
+      "products": [
+        {
+          "id": "pyo-tea",
+          "image": "images/chain-pyo-tea.png",
+          "name": "Lake-mist herbal tea",
+          "nameTh": "ชาสมุนไพรหมอกกว๊าน",
+          "crop": "Lakeside herbs",
+          "cropTh": "สมุนไพรริมกว๊าน",
+          "story": "Order a quiet lakeside tea lot: growers, dryer, pouch shop — Simulated.",
+          "storyTh": "สั่งชาล็อตริมกว๊าน: ผู้ปลูก โรงตาก ร้านซอง — จำลอง",
+          "preOrderAmount": 2400,
+          "farmerShare": 41,
+          "processorShare": 21,
+          "packagerShare": 18,
+          "investorShare": 20,
+          "status": "open",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Lake village herb group",
+              "nameTh": "กลุ่มสมุนไพรหมู่บ้านกว๊าน"
+            },
+            {
+              "role": "processor",
+              "name": "Shade dryer",
+              "nameTh": "โรงตากร่ม"
+            },
+            {
+              "role": "packager",
+              "name": "Pouch & string shop",
+              "nameTh": "ร้านซองและเชือก"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Plant herbs",
+              "labelTh": "ปลูกสมุนไพร",
+              "date": "2026-06-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Harvest",
+              "labelTh": "เก็บเกี่ยว",
+              "date": "2026-09-01"
+            },
+            {
+              "id": "process",
+              "label": "Dry",
+              "labelTh": "ตาก",
+              "date": "2026-09-08"
+            },
+            {
+              "id": "pack",
+              "label": "Pouch",
+              "labelTh": "ใส่ซอง",
+              "date": "2026-09-20"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-09-27"
+            }
+          ]
+        },
+        {
+          "id": "pyo-silk",
+          "image": "images/chain-pyo-silk.png",
+          "name": "Lake-village silk scarf",
+          "nameTh": "ผ้าพันคอไหมหมู่บ้านกว๊าน",
+          "crop": "Mulberry & silk yarn",
+          "cropTh": "หม่อนและเส้นไหม",
+          "story": "Capital for a small silk scarf run: mulberry growers, weavers, a wrap shop — Simulated.",
+          "storyTh": "ส่งทุนผ้าพันคอไหมล็อตเล็ก: ผู้ปลูกหม่อน กลุ่มทอ ร้านห่อ — จำลอง",
+          "preOrderAmount": 8200,
+          "farmerShare": 30,
+          "processorShare": 32,
+          "packagerShare": 16,
+          "investorShare": 22,
+          "status": "funded",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Mulberry growers",
+              "nameTh": "กลุ่มปลูกหม่อน"
+            },
+            {
+              "role": "processor",
+              "name": "Silk weaver group",
+              "nameTh": "กลุ่มทอไหม"
+            },
+            {
+              "role": "packager",
+              "name": "Scarf wrap shop",
+              "nameTh": "ร้านห่อผ้าพันคอ"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Lakeside gift shop",
+              "nameTh": "ร้านของขวัญริมกว๊าน"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Mulberry season",
+              "labelTh": "ฤดูหม่อน",
+              "date": "2026-05-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Reel silk",
+              "labelTh": "สาวไหม",
+              "date": "2026-08-01"
+            },
+            {
+              "id": "process",
+              "label": "Weave",
+              "labelTh": "ทอ",
+              "date": "2026-09-15"
+            },
+            {
+              "id": "pack",
+              "label": "Wrap",
+              "labelTh": "ห่อ",
+              "date": "2026-10-01"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-10-08"
+            }
+          ]
+        },
+        {
+          "id": "pyo-rice",
+          "image": "images/chain-pyo-rice.png",
+          "name": "Soft-milled lake rice",
+          "nameTh": "ข้าวสีซอฟท์มิลล์ริมกว๊าน",
+          "crop": "Local paddy",
+          "cropTh": "นาข้าวท้องถิ่น",
+          "story": "Pre-order a mill lot: growers, a village mill, a cloth-bag shop — Simulated.",
+          "storyTh": "จองล็อตโรงสี: ชาวนา โรงสีหมู่บ้าน ร้านถุงผ้า — จำลอง",
+          "preOrderAmount": 4100,
+          "farmerShare": 40,
+          "processorShare": 22,
+          "packagerShare": 16,
+          "investorShare": 22,
+          "status": "open",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Lake paddy group",
+              "nameTh": "กลุ่มนาข้าวริมกว๊าน"
+            },
+            {
+              "role": "processor",
+              "name": "Village mill",
+              "nameTh": "โรงสีหมู่บ้าน"
+            },
+            {
+              "role": "packager",
+              "name": "Cloth-bag shop",
+              "nameTh": "ร้านถุงผ้า"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Plant paddy",
+              "labelTh": "ปักดำ",
+              "date": "2026-06-20"
+            },
+            {
+              "id": "harvest",
+              "label": "Harvest",
+              "labelTh": "เกี่ยว",
+              "date": "2026-11-20"
+            },
+            {
+              "id": "process",
+              "label": "Mill",
+              "labelTh": "สีข้าว",
+              "date": "2026-12-01"
+            },
+            {
+              "id": "pack",
+              "label": "Bag",
+              "labelTh": "ใส่ถุง",
+              "date": "2026-12-08"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-12-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chiang-mai",
+      "name": "Chiang Mai",
+      "nameTh": "เชียงใหม่",
+      "localName": "Foothill villages",
+      "localNameTh": "หมู่บ้านเชิงดอย",
+      "communityId": null,
+      "products": [
+        {
+          "id": "cnx-coffee",
+          "image": "images/chain-cnx-coffee.png",
+          "name": "Foothill honey-process coffee",
+          "nameTh": "กาแฟฮันนี่โพรเซสเชิงดอย",
+          "crop": "Coffee cherry",
+          "cropTh": "เชอร์รีกาแฟ",
+          "story": "A tourist-funded micro-lot: growers, honey-process mill, valve-bag shop — Simulated.",
+          "storyTh": "ล็อตเล็กที่ผู้เยี่ยมส่งทุน: ชาวสวน โรงสีฮันนี่ ร้านถุงวาล์ว — จำลอง",
+          "preOrderAmount": 8800,
+          "farmerShare": 34,
+          "processorShare": 26,
+          "packagerShare": 15,
+          "investorShare": 25,
+          "status": "growing",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Foothill coffee group",
+              "nameTh": "กลุ่มกาแฟเชิงดอย"
+            },
+            {
+              "role": "processor",
+              "name": "Honey-process mill",
+              "nameTh": "โรงสีฮันนี่โพรเซส"
+            },
+            {
+              "role": "packager",
+              "name": "Valve-bag shop",
+              "nameTh": "ร้านถุงวาล์ว"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Registered town café",
+              "nameTh": "คาเฟ่ในเมืองขึ้นทะเบียน"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Cherry care",
+              "labelTh": "ดูแลเชอร์รี",
+              "date": "2026-05-15"
+            },
+            {
+              "id": "harvest",
+              "label": "Pick",
+              "labelTh": "เก็บ",
+              "date": "2026-12-10"
+            },
+            {
+              "id": "process",
+              "label": "Honey dry",
+              "labelTh": "ตากแบบฮันนี่",
+              "date": "2026-12-18"
+            },
+            {
+              "id": "pack",
+              "label": "Bag",
+              "labelTh": "บรรจุถุง",
+              "date": "2027-01-15"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2027-01-22"
+            }
+          ]
+        },
+        {
+          "id": "cnx-silk",
+          "image": "images/chain-cnx-silk.png",
+          "name": "Foothill silk runner",
+          "nameTh": "ผ้าไหมปูโต๊ะเชิงดอย",
+          "crop": "Silk yarn",
+          "cropTh": "เส้นไหม",
+          "story": "Pre-order a table runner: mulberry group, weavers, pack shop — Simulated.",
+          "storyTh": "จองผ้าปูโต๊ะไหม: กลุ่มหม่อน กลุ่มทอ ร้านบรรจุ — จำลอง",
+          "preOrderAmount": 6400,
+          "farmerShare": 28,
+          "processorShare": 34,
+          "packagerShare": 16,
+          "investorShare": 22,
+          "status": "open",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Mulberry & reel group",
+              "nameTh": "กลุ่มหม่อนและสาวไหม"
+            },
+            {
+              "role": "processor",
+              "name": "Weaver studio",
+              "nameTh": "ห้องทอ"
+            },
+            {
+              "role": "packager",
+              "name": "Textile pack shop",
+              "nameTh": "ร้านบรรจุผ้า"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Yarn prep",
+              "labelTh": "เตรียมเส้น",
+              "date": "2026-07-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Dye",
+              "labelTh": "ย้อม",
+              "date": "2026-08-01"
+            },
+            {
+              "id": "process",
+              "label": "Weave",
+              "labelTh": "ทอ",
+              "date": "2026-09-01"
+            },
+            {
+              "id": "pack",
+              "label": "Fold",
+              "labelTh": "พับ",
+              "date": "2026-09-20"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-09-27"
+            }
+          ]
+        },
+        {
+          "id": "cnx-herb",
+          "image": "images/chain-cnx-herb.png",
+          "name": "Cool-season herbal tea",
+          "nameTh": "ชาสมุนไพรฤดูหนาว",
+          "crop": "Mountain herbs",
+          "cropTh": "สมุนไพรภูเขา",
+          "story": "A settled demo lot: already packed and shown as sold-through split — Simulated.",
+          "storyTh": "ล็อตเดโมที่จบแล้ว: บรรจุและแสดงการแบ่งเมื่อขายแล้ว — จำลอง",
+          "preOrderAmount": 2100,
+          "farmerShare": 40,
+          "processorShare": 22,
+          "packagerShare": 18,
+          "investorShare": 20,
+          "status": "retail",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Mountain herb families",
+              "nameTh": "ครอบครัวสมุนไพรภูเขา"
+            },
+            {
+              "role": "processor",
+              "name": "Air dryer",
+              "nameTh": "โรงตากลม"
+            },
+            {
+              "role": "packager",
+              "name": "Tea tin shop",
+              "nameTh": "ร้านกระป๋องชา"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Night-market stall (registered)",
+              "nameTh": "แผงตลาดกลางคืนขึ้นทะเบียน"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Grow",
+              "labelTh": "ปลูก",
+              "date": "2026-01-10"
+            },
+            {
+              "id": "harvest",
+              "label": "Harvest",
+              "labelTh": "เก็บ",
+              "date": "2026-03-01"
+            },
+            {
+              "id": "process",
+              "label": "Dry",
+              "labelTh": "ตาก",
+              "date": "2026-03-08"
+            },
+            {
+              "id": "pack",
+              "label": "Tin",
+              "labelTh": "ใส่กระป๋อง",
+              "date": "2026-03-15"
+            },
+            {
+              "id": "ship",
+              "label": "To shop",
+              "labelTh": "ส่งร้าน",
+              "date": "2026-03-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surat-thani",
+      "name": "Surat Thani",
+      "nameTh": "สุราษฎร์ธานี",
+      "localName": "Garden & gulf edge",
+      "localNameTh": "สวนและริมอ่าว",
+      "communityId": null,
+      "products": [
+        {
+          "id": "srt-cocoa",
+          "image": "images/chain-srt-cocoa.png",
+          "name": "Gulf-garden cocoa",
+          "nameTh": "โกโก้สวนริมอ่าว",
+          "crop": "Cocoa",
+          "cropTh": "โกโก้",
+          "story": "Order fermented cocoa from southern gardens without a long middleman chain — Simulated.",
+          "storyTh": "สั่งโกโก้หมักจากสวนใต้โดยไม่ผ่านโซ่คนกลางยาว — จำลอง",
+          "preOrderAmount": 7200,
+          "farmerShare": 35,
+          "processorShare": 27,
+          "packagerShare": 14,
+          "investorShare": 24,
+          "status": "open",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Garden cocoa families",
+              "nameTh": "ครอบครัวสวนโกโก้"
+            },
+            {
+              "role": "processor",
+              "name": "Ferment boxes & dryer",
+              "nameTh": "กล่องหมักและโรงตาก"
+            },
+            {
+              "role": "packager",
+              "name": "Bean pack shop",
+              "nameTh": "ร้านบรรจุเมล็ด"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Pod care",
+              "labelTh": "ดูแลฝัก",
+              "date": "2026-06-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Harvest",
+              "labelTh": "เก็บฝัก",
+              "date": "2026-11-01"
+            },
+            {
+              "id": "process",
+              "label": "Ferment",
+              "labelTh": "หมัก",
+              "date": "2026-11-08"
+            },
+            {
+              "id": "pack",
+              "label": "Bag",
+              "labelTh": "บรรจุ",
+              "date": "2026-12-01"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-12-08"
+            }
+          ]
+        },
+        {
+          "id": "srt-preserve",
+          "image": "images/chain-srt-preserve.png",
+          "name": "Rambutan fruit preserve",
+          "nameTh": "แยมเงาะสวนใต้",
+          "crop": "Rambutan",
+          "cropTh": "เงาะ",
+          "story": "A packing-stage demo: fruit group, kettle kitchen, jar shop — Simulated.",
+          "storyTh": "เดโมช่วงบรรจุ: กลุ่มผลไม้ ครัวเคี่ยว ร้านโหล — จำลอง",
+          "preOrderAmount": 2900,
+          "farmerShare": 38,
+          "processorShare": 24,
+          "packagerShare": 18,
+          "investorShare": 20,
+          "status": "packing",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Rambutan orchard group",
+              "nameTh": "กลุ่มสวนเงาะ"
+            },
+            {
+              "role": "processor",
+              "name": "Preserve kitchen",
+              "nameTh": "ครัวแยม"
+            },
+            {
+              "role": "packager",
+              "name": "Jar shop",
+              "nameTh": "ร้านโหล"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Highway pantry (registered)",
+              "nameTh": "ร้านของฝากริมทางขึ้นทะเบียน"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Fruit set",
+              "labelTh": "ติดผล",
+              "date": "2026-04-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Pick",
+              "labelTh": "เก็บ",
+              "date": "2026-07-15"
+            },
+            {
+              "id": "process",
+              "label": "Cook",
+              "labelTh": "เคี่ยว",
+              "date": "2026-07-18"
+            },
+            {
+              "id": "pack",
+              "label": "Jar",
+              "labelTh": "บรรจุโหล",
+              "date": "2026-07-25"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-08-01"
+            }
+          ]
+        },
+        {
+          "id": "srt-honey",
+          "image": "images/chain-srt-honey.png",
+          "name": "Garden blossom honey",
+          "nameTh": "น้ำผึ้งดอกสวน",
+          "crop": "Blossom nectar",
+          "cropTh": "น้ำหวานดอกสวน",
+          "story": "Settled demo: capital returned as an illustrative split after shop sales — Simulated.",
+          "storyTh": "เดโมที่ปิดยอด: คืนทุนแบบส่วนแบ่งตัวอย่างหลังร้านขาย — จำลอง",
+          "preOrderAmount": 3400,
+          "farmerShare": 42,
+          "processorShare": 20,
+          "packagerShare": 16,
+          "investorShare": 22,
+          "status": "settled",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Garden beekeepers",
+              "nameTh": "กลุ่มเลี้ยงผึ้งสวน"
+            },
+            {
+              "role": "processor",
+              "name": "Filter kitchen",
+              "nameTh": "ครัวกรอง"
+            },
+            {
+              "role": "packager",
+              "name": "Jar shop",
+              "nameTh": "ร้านโหล"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Registered gift shop",
+              "nameTh": "ร้านของฝากขึ้นทะเบียน"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Bloom",
+              "labelTh": "ดอกบาน",
+              "date": "2025-11-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Harvest",
+              "labelTh": "เก็บน้ำผึ้ง",
+              "date": "2026-02-01"
+            },
+            {
+              "id": "process",
+              "label": "Filter",
+              "labelTh": "กรอง",
+              "date": "2026-02-05"
+            },
+            {
+              "id": "pack",
+              "label": "Jar",
+              "labelTh": "บรรจุ",
+              "date": "2026-02-12"
+            },
+            {
+              "id": "ship",
+              "label": "Sold & split",
+              "labelTh": "ขายแล้วแบ่ง",
+              "date": "2026-04-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ubon",
+      "name": "Ubon Ratchathani",
+      "nameTh": "อุบลราชธานี",
+      "localName": "Isan river hamlets",
+      "localNameTh": "หมู่บ้านริมน้ำอีสาน",
+      "communityId": null,
+      "products": [
+        {
+          "id": "ubn-silk",
+          "image": "images/chain-ubn-silk.png",
+          "name": "Isan silk pha khao ma",
+          "nameTh": "ผ้าขาวม้าไหมอีสาน",
+          "crop": "Silk & cotton blend",
+          "cropTh": "ไหมผสมฝ้าย",
+          "story": "Forward-purchase a pha khao ma lot from hamlet growers, weavers, and a pack shop — Simulated.",
+          "storyTh": "จองล่วงหน้าผ้าขาวม้าจากกลุ่มทอหมู่บ้าน ร้านบรรจุ — จำลอง",
+          "preOrderAmount": 5400,
+          "farmerShare": 30,
+          "processorShare": 32,
+          "packagerShare": 16,
+          "investorShare": 22,
+          "status": "open",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Yarn & dye plant group",
+              "nameTh": "กลุ่มเส้นและพืชย้อม"
+            },
+            {
+              "role": "processor",
+              "name": "Hamlet weavers",
+              "nameTh": "กลุ่มทอหมู่บ้าน"
+            },
+            {
+              "role": "packager",
+              "name": "Cloth wrap shop",
+              "nameTh": "ร้านห่อผ้า"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Temple-fair stall (registered)",
+              "nameTh": "แผงงานวัดขึ้นทะเบียน"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Yarn prep",
+              "labelTh": "เตรียมเส้น",
+              "date": "2026-06-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Dye",
+              "labelTh": "ย้อม",
+              "date": "2026-07-15"
+            },
+            {
+              "id": "process",
+              "label": "Weave",
+              "labelTh": "ทอ",
+              "date": "2026-08-20"
+            },
+            {
+              "id": "pack",
+              "label": "Wrap",
+              "labelTh": "ห่อ",
+              "date": "2026-09-05"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "ubn-indigo",
+          "image": "images/chain-ubn-indigo.png",
+          "name": "Moon-river indigo cloth",
+          "nameTh": "ผ้าครามแม่น้ำ",
+          "crop": "Indigo",
+          "cropTh": "คราม",
+          "story": "Processing-stage demo: indigo growers, dye house, pack shop — Simulated.",
+          "storyTh": "เดโมช่วงแปรรูป: ผู้ปลูกคราม โรงย้อม ร้านบรรจุ — จำลอง",
+          "preOrderAmount": 6100,
+          "farmerShare": 32,
+          "processorShare": 30,
+          "packagerShare": 16,
+          "investorShare": 22,
+          "status": "processing",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Indigo leaf group",
+              "nameTh": "กลุ่มใบคราม"
+            },
+            {
+              "role": "processor",
+              "name": "River dye house",
+              "nameTh": "โรงย้อมริมน้ำ"
+            },
+            {
+              "role": "packager",
+              "name": "Fold & tag shop",
+              "nameTh": "ร้านพับติดแท็ก"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Grow indigo",
+              "labelTh": "ปลูกคราม",
+              "date": "2026-06-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Harvest leaf",
+              "labelTh": "เก็บใบ",
+              "date": "2026-09-15"
+            },
+            {
+              "id": "process",
+              "label": "Vat dye",
+              "labelTh": "ย้อมหม้อคราม",
+              "date": "2026-10-01"
+            },
+            {
+              "id": "pack",
+              "label": "Finish cloth",
+              "labelTh": "เก็บงานผ้า",
+              "date": "2026-10-20"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ubn-rice",
+          "image": "images/chain-ubn-rice.png",
+          "name": "Special sticky rice (care lot)",
+          "nameTh": "ข้าวเหนียวพิเศษดูแลเข้ม",
+          "crop": "Sticky rice",
+          "cropTh": "ข้าวเหนียว",
+          "story": "Funded demo: capital already sent to growers; mill and pack still ahead — Simulated.",
+          "storyTh": "เดโมที่ส่งทุนแล้ว: ชาวนาได้รับทุน โรงสีและบรรจุยังข้างหน้า — จำลอง",
+          "preOrderAmount": 4800,
+          "farmerShare": 40,
+          "processorShare": 22,
+          "packagerShare": 16,
+          "investorShare": 22,
+          "status": "funded",
+          "nodes": [
+            {
+              "role": "grower",
+              "name": "Sticky-rice care group",
+              "nameTh": "กลุ่มข้าวเหนียวดูแลเข้ม"
+            },
+            {
+              "role": "processor",
+              "name": "Village mill",
+              "nameTh": "โรงสีหมู่บ้าน"
+            },
+            {
+              "role": "packager",
+              "name": "Cloth-bag shop",
+              "nameTh": "ร้านถุงผ้า"
+            },
+            {
+              "role": "investor",
+              "name": "Guest / tourist buyer",
+              "nameTh": "ผู้เยี่ยม / ผู้สั่งผลิต"
+            },
+            {
+              "role": "retail",
+              "name": "Registered rice shop",
+              "nameTh": "ร้านข้าวขึ้นทะเบียน"
+            }
+          ],
+          "timeline": [
+            {
+              "id": "plant",
+              "label": "Plant",
+              "labelTh": "ปลูก",
+              "date": "2026-07-01"
+            },
+            {
+              "id": "harvest",
+              "label": "Harvest",
+              "labelTh": "เกี่ยว",
+              "date": "2026-11-25"
+            },
+            {
+              "id": "process",
+              "label": "Mill",
+              "labelTh": "สี",
+              "date": "2026-12-05"
+            },
+            {
+              "id": "pack",
+              "label": "Bag",
+              "labelTh": "ใส่ถุง",
+              "date": "2026-12-12"
+            },
+            {
+              "id": "ship",
+              "label": "Ship",
+              "labelTh": "จัดส่ง",
+              "date": "2026-12-20"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

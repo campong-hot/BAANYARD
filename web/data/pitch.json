@@ -1,0 +1,150 @@
+{
+  "slides": [
+    {
+      "id": "1",
+      "brandHero": true,
+      "eyebrow": "บ้านญาติ",
+      "title": "BAANYARD",
+      "tagline": "Stay with rural hosts like visiting relatives — authentic stays, goods & stories from rural communities worldwide.",
+      "taglineTh": "ไปเยี่ยมญาติชนบท · ที่พัก สินค้า และเรื่องราวจริงจากชุมชนทั่วโลก",
+      "motif": true
+    },
+    {
+      "id": "2",
+      "eyebrow": "Problem",
+      "title": "Two gaps, one longing",
+      "bullets": [
+        "City guests seek warmth, safe food stories, and real belonging.",
+        "Rural communities hold hidden assets — crafts, stays, wisdom — but lack digital reach.",
+        "Global travelers want authenticity without leaving trust, language, or payment behind."
+      ]
+    },
+    {
+      "id": "3",
+      "eyebrow": "Solution",
+      "title": "A countryside “third place”",
+      "accent": true,
+      "htmlBullets": [
+        "<strong>Stay & experience</strong> — relatives-style hospitality",
+        "<strong>Barn marketplace</strong> — homemade goods from the village",
+        "<strong>Trust tools</strong> — translation, currency, storytelling, video, in-app pay"
+      ],
+      "motif": true
+    },
+    {
+      "id": "3b",
+      "eyebrow": "Brand & symbolism",
+      "title": "Barn + Yard, Naga + Garuda",
+      "accent": true,
+      "bodyHtml": "<strong>BAANYARD</strong> = Barn (โรงนา — the granary of rice and wisdom) + Yard (ลาน — an open ground for relatives to gather). Our mark balances <strong>Naga</strong> (นาค — land- and water-rooted host communities) with <strong>Garuda</strong> (ครุฑ — protection, reach, trust) so neither side is erased.",
+      "bullets": [
+        "\u201cอุษาคเนย์เป็นญาติกัน\u201d — Southeast Asia, all kin.",
+        "Naga carries the weight of place; Garuda carries the shelter of the platform."
+      ]
+    },
+    {
+      "id": "4",
+      "eyebrow": "Why now",
+      "title": "Connection is the product",
+      "body": "Wellness travel and community tourism are rising while many safe, culture-rich rural regions remain under-served by tech that fits low-tech hosts and high-tech guests alike.",
+      "motif": true
+    },
+    {
+      "id": "5",
+      "eyebrow": "Market",
+      "title": "Thailand seed → global rural network",
+      "accent": true,
+      "bodyHtml": "MVP narrative starts in <strong>Thailand</strong> (Sri Songkhram) and expands to rural Laos, Vietnam, Shan hills, islands, and beyond — wherever culture is rich and digital access is uneven.",
+      "badgeEstimate": true
+    },
+    {
+      "id": "6",
+      "eyebrow": "Product",
+      "title": "One app: pitch meets live product",
+      "body": "Guest book/buy · Host list in 3 steps · Admin for Country Thailand with branch & HQ sync — all live in the product below this deck (mock data where the backend isn't wired yet).",
+      "bullets": [
+        "Country Admin reads real MOTS Travel Link province data and predicts which BAANYARD products/services fit each province"
+      ],
+      "cta": "Open the product"
+    },
+    {
+      "id": "7",
+      "eyebrow": "Traction",
+      "title": "Plan figures only",
+      "muted": "No measured traction claimed in this build.",
+      "htmlBullets": [
+        "Year-3 GMV plan example: 50M THB <span class=\"chip chip-sage\">Estimate</span>",
+        "Active users plan ladder: 5k → 25k → 100k <span class=\"chip chip-sage\">Estimate</span>"
+      ],
+      "footer": "What you can click today is product readiness — labeled Simulated / Demo."
+    },
+    {
+      "id": "8",
+      "eyebrow": "Business model",
+      "title": "Community-powered take rate",
+      "accent": true,
+      "htmlBullets": [
+        "<strong>Direct sales</strong> — homemade goods & premium forward-purchase chains, community keeps the largest share",
+        "<strong>Service fee</strong> — 10–15% on stays & experience bookings <span class=\"chip chip-sage\">Estimate from plan</span>",
+        "<strong>Experience fee</strong> — guided/host-led activities booked in-app",
+        "<strong>Membership subscription</strong> — for frequent guests, hosts, and OEM/producer partners",
+        "Premium forward-purchase: guests fund a small village chain (grow → process → pack → shop) and see an illustrative cost/profit split — Simulated, not a securities offering"
+      ]
+    },
+    {
+      "id": "9",
+      "eyebrow": "Go-to-market",
+      "title": "Community-first ecosystem",
+      "bullets": [
+        "Seed story: Sri Songkhram heirloom rice, indigo & homestays",
+        "Community leaders & อสม. guardians anchor trust on the ground",
+        "University certifiers (prospective) validate quality over time",
+        "KOL / \"สะพานเชื่อม\" bridges carry stories to city & global audiences",
+        "OEM / producer partners scale goods once a chain proves demand",
+        "Auto-first UX so low-tech hosts are not left behind"
+      ],
+      "motif": true
+    },
+    {
+      "id": "10",
+      "eyebrow": "Competition",
+      "title": "Not another generic OTA",
+      "bodyHtml": "Generic OTAs and marketplaces optimize scale listings. BAANYARD optimizes <strong>relatives-in-the-countryside authenticity</strong>, homemade goods, and tools that close the digital inequality gap without erasing culture."
+    },
+    {
+      "id": "11",
+      "eyebrow": "Team + Ask",
+      "title": "1,500,000 THB",
+      "titleAsAsk": true,
+      "accent": true,
+      "bodyHtml": "Use of funds <span class=\"chip chip-sage\">Estimate from plan</span>",
+      "bullets": [
+        "MVP platform — 800,000",
+        "Community marketing — 300,000",
+        "Operations & working capital — 400,000"
+      ]
+    },
+    {
+      "id": "12",
+      "eyebrow": "Trust & Compliance",
+      "title": "Designed for trust",
+      "body": "Roadmap toward — not certified:",
+      "bullets": [
+        "PDPA · GDPR · Privacy by Design & Default",
+        "ISO 27001 · ISO 27701 (privacy) · SOC 2",
+        "Kinship Charter (ธรรมนูญญาติ) — shared fairness, safety & sustainability code for every chain",
+        "Prospective university certification partners: Sakon Nakhon Rice Research Center, Kasetsart University, RMU Technology Isan, Sakon Nakhon Rajabhat University — in discussion, no MOU signed"
+      ],
+      "muted": "No certification badges are claimed until a partner MOU is signed."
+    },
+    {
+      "id": "13",
+      "eyebrow": "Next",
+      "title": "Try the living product",
+      "accent": true,
+      "body": "Explore Guest, Host, and Thailand Country Admin — real roles, mock data where the backend isn't wired yet.",
+      "motif": true,
+      "cta": "Enter BAANYARD"
+    }
+  ]
+}

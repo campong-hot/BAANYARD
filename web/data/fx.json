@@ -1,0 +1,10 @@
+{
+  "note": "Demo FX rates from THB — Simulated only",
+  "rates": {
+    "THB": 1,
+    "USD": 0.029,
+    "EUR": 0.027,
+    "LAK": 630,
+    "VND": 730
+  }
+}

@@ -1,0 +1,21 @@
+---
+description: Always containerize with Docker before any hosting upload — every project, not only BAANYARD
+alwaysApply: true
+---
+
+# Docker-first deploy (every project)
+
+Before any hosting upload or production publish:
+
+1. **Containerize first** — ship `Dockerfile` + `docker-compose.yml` (and a campong overlay when needed). Do not treat loose files in `public_html` / document-root copy as the primary deploy method.
+2. **Prefer nginx or node in Docker** behind the **host TLS reverse proxy**. Bind the container to `127.0.0.1:{PORT}` only — never publish container 80/443 to the public internet.
+3. **campong.online** — `https://campong.online/projects/{slug}/` with host nginx `proxy_pass` to the container. Remote: `docker compose up -d --build` under `/opt/{slug}`.
+4. **HTTPS** — TLS and HTTP→HTTPS stay on the host. No mixed content. Do not default production to HTTP-only.
+
+```yaml
+# ✅ GOOD — localhost-only
+ports:
+  - "127.0.0.1:8502:80"
+
+# ❌ BAD — public container port or static dump to public_html as the live site
+```

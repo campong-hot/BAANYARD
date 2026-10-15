@@ -1,0 +1,52 @@
+{
+  "input": "C:\\Projects\\BAANYARD\\2.pdf",
+  "output_markdown": "C:\\Projects\\BAANYARD\\_pdf_extract\\2.md",
+  "engine": "pymupdf4llm",
+  "pdf_type": "digital",
+  "force_ocr": false,
+  "char_count": 5453,
+  "pages_analyzed": [
+    {
+      "index": 0,
+      "text_chars": 1260,
+      "image_count": 0,
+      "is_scanned": false
+    },
+    {
+      "index": 1,
+      "text_chars": 1118,
+      "image_count": 0,
+      "is_scanned": false
+    },
+    {
+      "index": 2,
+      "text_chars": 970,
+      "image_count": 0,
+      "is_scanned": false
+    },
+    {
+      "index": 3,
+      "text_chars": 2037,
+      "image_count": 0,
+      "is_scanned": false
+    },
+    {
+      "index": 4,
+      "text_chars": 1077,
+      "image_count": 0,
+      "is_scanned": false
+    },
+    {
+      "index": 5,
+      "text_chars": 918,
+      "image_count": 0,
+      "is_scanned": false
+    },
+    {
+      "index": 6,
+      "text_chars": 986,
+      "image_count": 0,
+      "is_scanned": false
+    }
+  ]
+}

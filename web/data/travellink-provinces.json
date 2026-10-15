@@ -1,0 +1,2325 @@
+{
+  "source": "https://www.travellink.go.th/dashboard/",
+  "sourceDataset": "https://ckan.mots.go.th/en/dataset/trend_domestic_tourists",
+  "sourceOwner": "MOTS (Ministry of Tourism and Sports) via Big Data Institute (BDI) Travel Link, open data on CKAN MOTS",
+  "fetchedAt": "2026-08-25T12:23:18.399Z",
+  "simulated": false,
+  "confidenceNote": "Measured = real MOTS/CKAN open-data figures (last available monthly window). travellink.go.th itself blocks direct scraping (GDCC WAF); this connector reads the same open dataset the dashboard is built on.",
+  "unit": {
+    "revenue": "million THB (MOTS estimate)",
+    "arrivals": "visits (domestic + international), 12-month rolling window"
+  },
+  "provinceCount": 77,
+  "provinces": [
+    {
+      "id": "bangkok",
+      "name": "Bangkok",
+      "nameTh": "กรุงเทพมหานคร",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 48417753,
+        "domesticArrivals": 27490273,
+        "intlArrivals": 20927480,
+        "revenueMillionThb": 579993.1,
+        "yoyArrivalsPct": 98.4,
+        "yoyRevenuePct": 272.8,
+        "intlSharePct": 43.2,
+        "domesticSharePct": 56.8,
+        "occupancyPct": 71.5,
+        "topSeasonMonths": [
+          12,
+          1,
+          2
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "chonburi",
+      "name": "Chonburi",
+      "nameTh": "ชลบุรี",
+      "region": "East",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 20896823,
+        "domesticArrivals": 14168879,
+        "intlArrivals": 6727944,
+        "revenueMillionThb": 174429.9,
+        "yoyArrivalsPct": 125.6,
+        "yoyRevenuePct": 241.3,
+        "intlSharePct": 32.2,
+        "domesticSharePct": 67.8,
+        "occupancyPct": 70.3,
+        "topSeasonMonths": [
+          12,
+          11,
+          2
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "kanchanaburi",
+      "name": "Kanchanaburi",
+      "nameTh": "กาญจนบุรี",
+      "region": "West",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 13394123,
+        "domesticArrivals": 13181478,
+        "intlArrivals": 212645,
+        "revenueMillionThb": 25225.1,
+        "yoyArrivalsPct": 50.2,
+        "yoyRevenuePct": 57.2,
+        "intlSharePct": 1.6,
+        "domesticSharePct": 98.4,
+        "occupancyPct": 61.2,
+        "topSeasonMonths": [
+          12,
+          11,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "prachuap-khiri-khan",
+      "name": "Prachuap Khiri Khan",
+      "nameTh": "ประจวบคีรีขันธ์",
+      "region": "West",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 11188135,
+        "domesticArrivals": 10785317,
+        "intlArrivals": 402818,
+        "revenueMillionThb": 39281.2,
+        "yoyArrivalsPct": 70.6,
+        "yoyRevenuePct": 77.6,
+        "intlSharePct": 3.6,
+        "domesticSharePct": 96.4,
+        "occupancyPct": 71.1,
+        "topSeasonMonths": [
+          12,
+          11,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "phetchaburi",
+      "name": "Phetchaburi",
+      "nameTh": "เพชรบุรี",
+      "region": "West",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 10262704,
+        "domesticArrivals": 10141646,
+        "intlArrivals": 121058,
+        "revenueMillionThb": 28254.8,
+        "yoyArrivalsPct": 58.2,
+        "yoyRevenuePct": 66.4,
+        "intlSharePct": 1.2,
+        "domesticSharePct": 98.8,
+        "occupancyPct": 65.8,
+        "topSeasonMonths": [
+          12,
+          10,
+          11
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "chiang-mai",
+      "name": "Chiang Mai",
+      "nameTh": "เชียงใหม่",
+      "region": "North",
+      "supplyChainId": "chiang-mai",
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 10144663,
+        "domesticArrivals": 7438335,
+        "intlArrivals": 2706328,
+        "revenueMillionThb": 76580.8,
+        "yoyArrivalsPct": 51.1,
+        "yoyRevenuePct": 83.4,
+        "intlSharePct": 26.7,
+        "domesticSharePct": 73.3,
+        "occupancyPct": 70.4,
+        "topSeasonMonths": [
+          12,
+          11,
+          2
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "phuket",
+      "name": "Phuket",
+      "nameTh": "ภูเก็ต",
+      "region": "South",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 9298508,
+        "domesticArrivals": 2834685,
+        "intlArrivals": 6463823,
+        "revenueMillionThb": 306414,
+        "yoyArrivalsPct": 241,
+        "yoyRevenuePct": 305.3,
+        "intlSharePct": 69.5,
+        "domesticSharePct": 30.5,
+        "occupancyPct": 71.3,
+        "topSeasonMonths": [
+          2,
+          12,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "phra-nakhon-si-ayutthaya",
+      "name": "Phra Nakhon Si Ayutthaya",
+      "nameTh": "พระนครศรีอยุธยา",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 8666879,
+        "domesticArrivals": 7599652,
+        "intlArrivals": 1067227,
+        "revenueMillionThb": 13839.4,
+        "yoyArrivalsPct": 61.8,
+        "yoyRevenuePct": 75.8,
+        "intlSharePct": 12.3,
+        "domesticSharePct": 87.7,
+        "occupancyPct": 55.4,
+        "topSeasonMonths": [
+          12,
+          11,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "nakhon-ratchasima",
+      "name": "Nakhon Ratchasima",
+      "nameTh": "นครราชสีมา",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 7020656,
+        "domesticArrivals": 6897449,
+        "intlArrivals": 123207,
+        "revenueMillionThb": 12200.9,
+        "yoyArrivalsPct": 42.3,
+        "yoyRevenuePct": 60.5,
+        "intlSharePct": 1.8,
+        "domesticSharePct": 98.2,
+        "occupancyPct": 61.2,
+        "topSeasonMonths": [
+          1,
+          12,
+          2
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "surat-thani",
+      "name": "Surat Thani",
+      "nameTh": "สุราษฎร์ธานี",
+      "region": "South",
+      "supplyChainId": "surat-thani",
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 6005825,
+        "domesticArrivals": 3952365,
+        "intlArrivals": 2053460,
+        "revenueMillionThb": 43138.4,
+        "yoyArrivalsPct": 202.3,
+        "yoyRevenuePct": 200.3,
+        "intlSharePct": 34.2,
+        "domesticSharePct": 65.8,
+        "occupancyPct": 66,
+        "topSeasonMonths": [
+          2,
+          8,
+          12
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "chiang-rai",
+      "name": "Chiang Rai",
+      "nameTh": "เชียงราย",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 5990780,
+        "domesticArrivals": 5321146,
+        "intlArrivals": 669634,
+        "revenueMillionThb": 43349.4,
+        "yoyArrivalsPct": 72.8,
+        "yoyRevenuePct": 101,
+        "intlSharePct": 11.2,
+        "domesticSharePct": 88.8,
+        "occupancyPct": 70.1,
+        "topSeasonMonths": [
+          12,
+          2,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "samut-songkhram",
+      "name": "Samut Songkhram",
+      "nameTh": "สมุทรสงคราม",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 5954157,
+        "domesticArrivals": 5842978,
+        "intlArrivals": 111179,
+        "revenueMillionThb": 5740.4,
+        "yoyArrivalsPct": 114.6,
+        "yoyRevenuePct": 105,
+        "intlSharePct": 1.9,
+        "domesticSharePct": 98.1,
+        "occupancyPct": 53.2,
+        "topSeasonMonths": [
+          12,
+          2,
+          11
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "suphan-buri",
+      "name": "Suphan Buri",
+      "nameTh": "สุพรรณบุรี",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 5665216,
+        "domesticArrivals": 5629298,
+        "intlArrivals": 35918,
+        "revenueMillionThb": 6779,
+        "yoyArrivalsPct": 112.4,
+        "yoyRevenuePct": 117.1,
+        "intlSharePct": 0.6,
+        "domesticSharePct": 99.4,
+        "occupancyPct": 55.2,
+        "topSeasonMonths": [
+          12,
+          11,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "chachoengsao",
+      "name": "Chachoengsao",
+      "nameTh": "ฉะเชิงเทรา",
+      "region": "East",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 5299233,
+        "domesticArrivals": 5285592,
+        "intlArrivals": 13641,
+        "revenueMillionThb": 5891.9,
+        "yoyArrivalsPct": 56.7,
+        "yoyRevenuePct": 53.7,
+        "intlSharePct": 0.3,
+        "domesticSharePct": 99.7,
+        "occupancyPct": 36.6,
+        "topSeasonMonths": [
+          11,
+          12,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "rayong",
+      "name": "Rayong",
+      "nameTh": "ระยอง",
+      "region": "East",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 4496893,
+        "domesticArrivals": 4012936,
+        "intlArrivals": 483957,
+        "revenueMillionThb": 15798.4,
+        "yoyArrivalsPct": 100.6,
+        "yoyRevenuePct": 125.7,
+        "intlSharePct": 10.8,
+        "domesticSharePct": 89.2,
+        "occupancyPct": 71.6,
+        "topSeasonMonths": [
+          12,
+          11,
+          2
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "songkhla",
+      "name": "Songkhla",
+      "nameTh": "สงขลา",
+      "region": "South",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 4231677,
+        "domesticArrivals": 2072744,
+        "intlArrivals": 2158933,
+        "revenueMillionThb": 23592.6,
+        "yoyArrivalsPct": 222.5,
+        "yoyRevenuePct": 207.8,
+        "intlSharePct": 51,
+        "domesticSharePct": 49,
+        "occupancyPct": 62.7,
+        "topSeasonMonths": [
+          1,
+          2,
+          9
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "saraburi",
+      "name": "Saraburi",
+      "nameTh": "สระบุรี",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 4217145,
+        "domesticArrivals": 4187067,
+        "intlArrivals": 30078,
+        "revenueMillionThb": 6858.7,
+        "yoyArrivalsPct": 49.7,
+        "yoyRevenuePct": 66.1,
+        "intlSharePct": 0.7,
+        "domesticSharePct": 99.3,
+        "occupancyPct": 54.3,
+        "topSeasonMonths": [
+          12,
+          11,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "udon-thani",
+      "name": "Udon Thani",
+      "nameTh": "อุดรธานี",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 3977271,
+        "domesticArrivals": 3369026,
+        "intlArrivals": 608245,
+        "revenueMillionThb": 8214,
+        "yoyArrivalsPct": 90.8,
+        "yoyRevenuePct": 102.1,
+        "intlSharePct": 15.3,
+        "domesticSharePct": 84.7,
+        "occupancyPct": 59.1,
+        "topSeasonMonths": [
+          12,
+          11,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "khon-kaen",
+      "name": "Khon Kaen",
+      "nameTh": "ขอนแก่น",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 3843317,
+        "domesticArrivals": 3750355,
+        "intlArrivals": 92962,
+        "revenueMillionThb": 10518.8,
+        "yoyArrivalsPct": 48.9,
+        "yoyRevenuePct": 66.1,
+        "intlSharePct": 2.4,
+        "domesticSharePct": 97.6,
+        "occupancyPct": 56.5,
+        "topSeasonMonths": [
+          12,
+          1,
+          11
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "lopburi",
+      "name": "Lopburi",
+      "nameTh": "ลพบุรี",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 3593345,
+        "domesticArrivals": 3579777,
+        "intlArrivals": 13568,
+        "revenueMillionThb": 4438.7,
+        "yoyArrivalsPct": 22,
+        "yoyRevenuePct": 34.7,
+        "intlSharePct": 0.4,
+        "domesticSharePct": 99.6,
+        "occupancyPct": 49.1,
+        "topSeasonMonths": [
+          12,
+          11,
+          7
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "chanthaburi",
+      "name": "Chanthaburi",
+      "nameTh": "จันทบุรี",
+      "region": "East",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 3552116,
+        "domesticArrivals": 3531091,
+        "intlArrivals": 21025,
+        "revenueMillionThb": 11638.9,
+        "yoyArrivalsPct": 214.6,
+        "yoyRevenuePct": 218.9,
+        "intlSharePct": 0.6,
+        "domesticSharePct": 99.4,
+        "occupancyPct": 56.3,
+        "topSeasonMonths": [
+          3,
+          2,
+          4
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "buriram",
+      "name": "Buriram",
+      "nameTh": "บุรีรัมย์",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 3401360,
+        "domesticArrivals": 3366733,
+        "intlArrivals": 34627,
+        "revenueMillionThb": 6869.6,
+        "yoyArrivalsPct": 94.9,
+        "yoyRevenuePct": 100.1,
+        "intlSharePct": 1,
+        "domesticSharePct": 99,
+        "occupancyPct": 70.1,
+        "topSeasonMonths": [
+          10,
+          4,
+          12
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "nonthaburi",
+      "name": "Nonthaburi",
+      "nameTh": "นนทบุรี",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 3369692,
+        "domesticArrivals": 3195396,
+        "intlArrivals": 174296,
+        "revenueMillionThb": 4442.2,
+        "yoyArrivalsPct": 123,
+        "yoyRevenuePct": 134.7,
+        "intlSharePct": 5.2,
+        "domesticSharePct": 94.8,
+        "occupancyPct": 52.7,
+        "topSeasonMonths": [
+          2,
+          1,
+          3
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "nakhon-pathom",
+      "name": "Nakhon Pathom",
+      "nameTh": "นครปฐม",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 3317470,
+        "domesticArrivals": 3278994,
+        "intlArrivals": 38476,
+        "revenueMillionThb": 4286.9,
+        "yoyArrivalsPct": 70.9,
+        "yoyRevenuePct": 72.7,
+        "intlSharePct": 1.2,
+        "domesticSharePct": 98.8,
+        "occupancyPct": 47.9,
+        "topSeasonMonths": [
+          8,
+          9,
+          12
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "nakhon-si-thammarat",
+      "name": "Nakhon Si Thammarat",
+      "nameTh": "นครศรีธรรมราช",
+      "region": "South",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 3169791,
+        "domesticArrivals": 3142467,
+        "intlArrivals": 27324,
+        "revenueMillionThb": 7543.7,
+        "yoyArrivalsPct": 165.2,
+        "yoyRevenuePct": 115.5,
+        "intlSharePct": 0.9,
+        "domesticSharePct": 99.1,
+        "occupancyPct": 60.9,
+        "topSeasonMonths": [
+          1,
+          4,
+          3
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "samut-prakan",
+      "name": "Samut Prakan",
+      "nameTh": "สมุทรปราการ",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 3153469,
+        "domesticArrivals": 2409084,
+        "intlArrivals": 744385,
+        "revenueMillionThb": 4514.6,
+        "yoyArrivalsPct": 138,
+        "yoyRevenuePct": 131.2,
+        "intlSharePct": 23.6,
+        "domesticSharePct": 76.4,
+        "occupancyPct": 46.2,
+        "topSeasonMonths": [
+          2,
+          1,
+          3
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "krabi",
+      "name": "Krabi",
+      "nameTh": "กระบี่",
+      "region": "South",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 2974228,
+        "domesticArrivals": 1862851,
+        "intlArrivals": 1111377,
+        "revenueMillionThb": 22780.7,
+        "yoyArrivalsPct": 175.7,
+        "yoyRevenuePct": 111.2,
+        "intlSharePct": 37.4,
+        "domesticSharePct": 62.6,
+        "occupancyPct": 54.2,
+        "topSeasonMonths": [
+          2,
+          12,
+          4
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "nong-khai",
+      "name": "Nong Khai",
+      "nameTh": "หนองคาย",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 2877869,
+        "domesticArrivals": 2109273,
+        "intlArrivals": 768596,
+        "revenueMillionThb": 4888.7,
+        "yoyArrivalsPct": 105.5,
+        "yoyRevenuePct": 144.6,
+        "intlSharePct": 26.7,
+        "domesticSharePct": 73.3,
+        "occupancyPct": 60.7,
+        "topSeasonMonths": [
+          12,
+          1,
+          11
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "phitsanulok",
+      "name": "Phitsanulok",
+      "nameTh": "พิษณุโลก",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 2850069,
+        "domesticArrivals": 2748243,
+        "intlArrivals": 101826,
+        "revenueMillionThb": 7565.8,
+        "yoyArrivalsPct": 49.9,
+        "yoyRevenuePct": 80.7,
+        "intlSharePct": 3.6,
+        "domesticSharePct": 96.4,
+        "occupancyPct": 48.5,
+        "topSeasonMonths": [
+          1,
+          2,
+          12
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "ubon-ratchathani",
+      "name": "Ubon Ratchathani",
+      "nameTh": "อุบลราชธานี",
+      "region": "Northeast",
+      "supplyChainId": "ubon",
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 2679650,
+        "domesticArrivals": 2664816,
+        "intlArrivals": 14834,
+        "revenueMillionThb": 4243.5,
+        "yoyArrivalsPct": 62.5,
+        "yoyRevenuePct": 90.1,
+        "intlSharePct": 0.6,
+        "domesticSharePct": 99.4,
+        "occupancyPct": 44.8,
+        "topSeasonMonths": [
+          12,
+          11,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "phetchabun",
+      "name": "Phetchabun",
+      "nameTh": "เพชรบูรณ์",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 2514280,
+        "domesticArrivals": 2453069,
+        "intlArrivals": 61211,
+        "revenueMillionThb": 8353.5,
+        "yoyArrivalsPct": 53.7,
+        "yoyRevenuePct": 91.7,
+        "intlSharePct": 2.4,
+        "domesticSharePct": 97.6,
+        "occupancyPct": 51.1,
+        "topSeasonMonths": [
+          12,
+          11,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "pathum-thani",
+      "name": "Pathum Thani",
+      "nameTh": "ปทุมธานี",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 2449886,
+        "domesticArrivals": 2286711,
+        "intlArrivals": 163175,
+        "revenueMillionThb": 3404.8,
+        "yoyArrivalsPct": 168,
+        "yoyRevenuePct": 197.1,
+        "intlSharePct": 6.7,
+        "domesticSharePct": 93.3,
+        "occupancyPct": 41.6,
+        "topSeasonMonths": [
+          12,
+          1,
+          2
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "phang-nga",
+      "name": "Phang Nga",
+      "nameTh": "พังงา",
+      "region": "South",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 2239155,
+        "domesticArrivals": 1000074,
+        "intlArrivals": 1239081,
+        "revenueMillionThb": 9929.7,
+        "yoyArrivalsPct": 119.5,
+        "yoyRevenuePct": 108.8,
+        "intlSharePct": 55.3,
+        "domesticSharePct": 44.7,
+        "occupancyPct": 55.8,
+        "topSeasonMonths": [
+          2,
+          12,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "nakhon-sawan",
+      "name": "Nakhon Sawan",
+      "nameTh": "นครสวรรค์",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 2163019,
+        "domesticArrivals": 2153510,
+        "intlArrivals": 9509,
+        "revenueMillionThb": 5651.1,
+        "yoyArrivalsPct": 82.6,
+        "yoyRevenuePct": 118.6,
+        "intlSharePct": 0.4,
+        "domesticSharePct": 99.6,
+        "occupancyPct": 50.7,
+        "topSeasonMonths": [
+          4,
+          2,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "tak",
+      "name": "Tak",
+      "nameTh": "ตาก",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 2108788,
+        "domesticArrivals": 2069541,
+        "intlArrivals": 39247,
+        "revenueMillionThb": 6782.9,
+        "yoyArrivalsPct": 99.1,
+        "yoyRevenuePct": 139.6,
+        "intlSharePct": 1.9,
+        "domesticSharePct": 98.1,
+        "occupancyPct": 62.8,
+        "topSeasonMonths": [
+          2,
+          12,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "ratchaburi",
+      "name": "Ratchaburi",
+      "nameTh": "ราชบุรี",
+      "region": "West",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 2059283,
+        "domesticArrivals": 1964249,
+        "intlArrivals": 95034,
+        "revenueMillionThb": 2399,
+        "yoyArrivalsPct": 50.5,
+        "yoyRevenuePct": 50.8,
+        "intlSharePct": 4.6,
+        "domesticSharePct": 95.4,
+        "occupancyPct": 53.8,
+        "topSeasonMonths": [
+          12,
+          1,
+          4
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "loei",
+      "name": "Loei",
+      "nameTh": "เลย",
+      "region": "Northeast",
+      "supplyChainId": "loei",
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 2002299,
+        "domesticArrivals": 1978305,
+        "intlArrivals": 23994,
+        "revenueMillionThb": 4208.4,
+        "yoyArrivalsPct": 52.6,
+        "yoyRevenuePct": 96.5,
+        "intlSharePct": 1.2,
+        "domesticSharePct": 98.8,
+        "occupancyPct": 59.2,
+        "topSeasonMonths": [
+          12,
+          11,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "nakhon-phanom",
+      "name": "Nakhon Phanom",
+      "nameTh": "นครพนม",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 2001792,
+        "domesticArrivals": 1899112,
+        "intlArrivals": 102680,
+        "revenueMillionThb": 3100,
+        "yoyArrivalsPct": 106,
+        "yoyRevenuePct": 141.7,
+        "intlSharePct": 5.1,
+        "domesticSharePct": 94.9,
+        "occupancyPct": 73.8,
+        "topSeasonMonths": [
+          12,
+          2,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "satun",
+      "name": "Satun",
+      "nameTh": "สตูล",
+      "region": "South",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1838070,
+        "domesticArrivals": 1714891,
+        "intlArrivals": 123179,
+        "revenueMillionThb": 6966.4,
+        "yoyArrivalsPct": 64,
+        "yoyRevenuePct": 61.6,
+        "intlSharePct": 6.7,
+        "domesticSharePct": 93.3,
+        "occupancyPct": 54.7,
+        "topSeasonMonths": [
+          2,
+          3,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "mukdahan",
+      "name": "Mukdahan",
+      "nameTh": "มุกดาหาร",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1730511,
+        "domesticArrivals": 1619591,
+        "intlArrivals": 110920,
+        "revenueMillionThb": 2533.6,
+        "yoyArrivalsPct": 53.1,
+        "yoyRevenuePct": 67.6,
+        "intlSharePct": 6.4,
+        "domesticSharePct": 93.6,
+        "occupancyPct": 46.8,
+        "topSeasonMonths": [
+          1,
+          2,
+          12
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "trat",
+      "name": "Trat",
+      "nameTh": "ตราด",
+      "region": "East",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1700502,
+        "domesticArrivals": 1549955,
+        "intlArrivals": 150547,
+        "revenueMillionThb": 11132.2,
+        "yoyArrivalsPct": 53.5,
+        "yoyRevenuePct": 69.8,
+        "intlSharePct": 8.9,
+        "domesticSharePct": 91.1,
+        "occupancyPct": 48.3,
+        "topSeasonMonths": [
+          2,
+          12,
+          4
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "sakon-nakhon",
+      "name": "Sakon Nakhon",
+      "nameTh": "สกลนคร",
+      "region": "Northeast",
+      "supplyChainId": "sakon-nakhon",
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1666648,
+        "domesticArrivals": 1653488,
+        "intlArrivals": 13160,
+        "revenueMillionThb": 2345.4,
+        "yoyArrivalsPct": 50.8,
+        "yoyRevenuePct": 74.5,
+        "intlSharePct": 0.8,
+        "domesticSharePct": 99.2,
+        "occupancyPct": 48.9,
+        "topSeasonMonths": [
+          12,
+          11,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "nakhon-nayok",
+      "name": "Nakhon Nayok",
+      "nameTh": "นครนายก",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1656334,
+        "domesticArrivals": 1649321,
+        "intlArrivals": 7013,
+        "revenueMillionThb": 3826.6,
+        "yoyArrivalsPct": 37.5,
+        "yoyRevenuePct": 56.8,
+        "intlSharePct": 0.4,
+        "domesticSharePct": 99.6,
+        "occupancyPct": 60.8,
+        "topSeasonMonths": [
+          8,
+          12,
+          9
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "lampang",
+      "name": "Lampang",
+      "nameTh": "ลำปาง",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1639336,
+        "domesticArrivals": 1583738,
+        "intlArrivals": 55598,
+        "revenueMillionThb": 4939.7,
+        "yoyArrivalsPct": 49.3,
+        "yoyRevenuePct": 76.5,
+        "intlSharePct": 3.4,
+        "domesticSharePct": 96.6,
+        "occupancyPct": 58.5,
+        "topSeasonMonths": [
+          12,
+          11,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "nan",
+      "name": "Nan",
+      "nameTh": "น่าน",
+      "region": "North",
+      "supplyChainId": "nan",
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1553444,
+        "domesticArrivals": 1538345,
+        "intlArrivals": 15099,
+        "revenueMillionThb": 3910.7,
+        "yoyArrivalsPct": 46.4,
+        "yoyRevenuePct": 70.4,
+        "intlSharePct": 1,
+        "domesticSharePct": 99,
+        "occupancyPct": 73.3,
+        "topSeasonMonths": [
+          1,
+          12,
+          2
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "yala",
+      "name": "Yala",
+      "nameTh": "ยะลา",
+      "region": "South",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1444678,
+        "domesticArrivals": 973870,
+        "intlArrivals": 470808,
+        "revenueMillionThb": 2927.7,
+        "yoyArrivalsPct": 162.8,
+        "yoyRevenuePct": 162.5,
+        "intlSharePct": 32.6,
+        "domesticSharePct": 67.4,
+        "occupancyPct": 70.1,
+        "topSeasonMonths": [
+          12,
+          11,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "chumphon",
+      "name": "Chumphon",
+      "nameTh": "ชุมพร",
+      "region": "South",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1392509,
+        "domesticArrivals": 1382682,
+        "intlArrivals": 9827,
+        "revenueMillionThb": 3546.1,
+        "yoyArrivalsPct": 99.6,
+        "yoyRevenuePct": 62,
+        "intlSharePct": 0.7,
+        "domesticSharePct": 99.3,
+        "occupancyPct": 54.7,
+        "topSeasonMonths": [
+          7,
+          8,
+          2
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "chaiyaphum",
+      "name": "Chaiyaphum",
+      "nameTh": "ชัยภูมิ",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1301996,
+        "domesticArrivals": 1296548,
+        "intlArrivals": 5448,
+        "revenueMillionThb": 1763.6,
+        "yoyArrivalsPct": 55.8,
+        "yoyRevenuePct": 52.2,
+        "intlSharePct": 0.4,
+        "domesticSharePct": 99.6,
+        "occupancyPct": 46.5,
+        "topSeasonMonths": [
+          7,
+          9,
+          8
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "phrae",
+      "name": "Phrae",
+      "nameTh": "แพร่",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1281915,
+        "domesticArrivals": 1271428,
+        "intlArrivals": 10487,
+        "revenueMillionThb": 2865.1,
+        "yoyArrivalsPct": 53.9,
+        "yoyRevenuePct": 92.7,
+        "intlSharePct": 0.8,
+        "domesticSharePct": 99.2,
+        "occupancyPct": 62.3,
+        "topSeasonMonths": [
+          12,
+          11,
+          2
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "trang",
+      "name": "Trang",
+      "nameTh": "ตรัง",
+      "region": "South",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1276137,
+        "domesticArrivals": 1244979,
+        "intlArrivals": 31158,
+        "revenueMillionThb": 4109.4,
+        "yoyArrivalsPct": 94.9,
+        "yoyRevenuePct": 58.6,
+        "intlSharePct": 2.4,
+        "domesticSharePct": 97.6,
+        "occupancyPct": 52.6,
+        "topSeasonMonths": [
+          2,
+          1,
+          3
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "lamphun",
+      "name": "Lamphun",
+      "nameTh": "ลำพูน",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1219586,
+        "domesticArrivals": 1158278,
+        "intlArrivals": 61308,
+        "revenueMillionThb": 1645.7,
+        "yoyArrivalsPct": 51.8,
+        "yoyRevenuePct": 74.2,
+        "intlSharePct": 5,
+        "domesticSharePct": 95,
+        "occupancyPct": 56.6,
+        "topSeasonMonths": [
+          12,
+          11,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "sa-kaeo",
+      "name": "Sa Kaeo",
+      "nameTh": "สระแก้ว",
+      "region": "East",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1216735,
+        "domesticArrivals": 1201969,
+        "intlArrivals": 14766,
+        "revenueMillionThb": 3880.2,
+        "yoyArrivalsPct": 57.3,
+        "yoyRevenuePct": 69,
+        "intlSharePct": 1.2,
+        "domesticSharePct": 98.8,
+        "occupancyPct": 47,
+        "topSeasonMonths": [
+          2,
+          12,
+          11
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "prachinburi",
+      "name": "Prachinburi",
+      "nameTh": "ปราจีนบุรี",
+      "region": "East",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1175259,
+        "domesticArrivals": 1171310,
+        "intlArrivals": 3949,
+        "revenueMillionThb": 3197.3,
+        "yoyArrivalsPct": 44,
+        "yoyRevenuePct": 58,
+        "intlSharePct": 0.3,
+        "domesticSharePct": 99.7,
+        "occupancyPct": 42.2,
+        "topSeasonMonths": [
+          2,
+          12,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "mae-hong-son",
+      "name": "Mae Hong Son",
+      "nameTh": "แม่ฮ่องสอน",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1150473,
+        "domesticArrivals": 966082,
+        "intlArrivals": 184391,
+        "revenueMillionThb": 5240.5,
+        "yoyArrivalsPct": 39.7,
+        "yoyRevenuePct": 80.8,
+        "intlSharePct": 16,
+        "domesticSharePct": 84,
+        "occupancyPct": 48.5,
+        "topSeasonMonths": [
+          12,
+          11,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "sukhothai",
+      "name": "Sukhothai",
+      "nameTh": "สุโขทัย",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1123543,
+        "domesticArrivals": 962285,
+        "intlArrivals": 161258,
+        "revenueMillionThb": 2742.3,
+        "yoyArrivalsPct": 79.9,
+        "yoyRevenuePct": 109.3,
+        "intlSharePct": 14.4,
+        "domesticSharePct": 85.6,
+        "occupancyPct": 34.1,
+        "topSeasonMonths": [
+          12,
+          11,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "phatthalung",
+      "name": "Phatthalung",
+      "nameTh": "พัทลุง",
+      "region": "South",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1069219,
+        "domesticArrivals": 1056762,
+        "intlArrivals": 12457,
+        "revenueMillionThb": 1070.2,
+        "yoyArrivalsPct": 190.3,
+        "yoyRevenuePct": 126,
+        "intlSharePct": 1.2,
+        "domesticSharePct": 98.8,
+        "occupancyPct": 56.8,
+        "topSeasonMonths": [
+          10,
+          11,
+          12
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "surin",
+      "name": "Surin",
+      "nameTh": "สุรินทร์",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1064347,
+        "domesticArrivals": 1040736,
+        "intlArrivals": 23611,
+        "revenueMillionThb": 1870.3,
+        "yoyArrivalsPct": 82.6,
+        "yoyRevenuePct": 98.9,
+        "intlSharePct": 2.2,
+        "domesticSharePct": 97.8,
+        "occupancyPct": 49.4,
+        "topSeasonMonths": [
+          10,
+          11,
+          12
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "uttaradit",
+      "name": "Uttaradit",
+      "nameTh": "อุตรดิตถ์",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1019580,
+        "domesticArrivals": 1013750,
+        "intlArrivals": 5830,
+        "revenueMillionThb": 1550.3,
+        "yoyArrivalsPct": 58.9,
+        "yoyRevenuePct": 81.6,
+        "intlSharePct": 0.6,
+        "domesticSharePct": 99.4,
+        "occupancyPct": 43,
+        "topSeasonMonths": [
+          1,
+          12,
+          11
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "phayao",
+      "name": "Phayao",
+      "nameTh": "พะเยา",
+      "region": "North",
+      "supplyChainId": "phayao",
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 1009982,
+        "domesticArrivals": 964404,
+        "intlArrivals": 45578,
+        "revenueMillionThb": 2148.4,
+        "yoyArrivalsPct": 39.6,
+        "yoyRevenuePct": 68.3,
+        "intlSharePct": 4.5,
+        "domesticSharePct": 95.5,
+        "occupancyPct": 63.2,
+        "topSeasonMonths": [
+          12,
+          1,
+          2
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "uthai-thani",
+      "name": "Uthai Thani",
+      "nameTh": "อุทัยธานี",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 975665,
+        "domesticArrivals": 974915,
+        "intlArrivals": 750,
+        "revenueMillionThb": 1521.8,
+        "yoyArrivalsPct": 74.8,
+        "yoyRevenuePct": 96,
+        "intlSharePct": 0.1,
+        "domesticSharePct": 99.9,
+        "occupancyPct": 47.6,
+        "topSeasonMonths": [
+          1,
+          12,
+          11
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "samut-sakhon",
+      "name": "Samut Sakhon",
+      "nameTh": "สมุทรสาคร",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 924914,
+        "domesticArrivals": 915667,
+        "intlArrivals": 9247,
+        "revenueMillionThb": 1281.9,
+        "yoyArrivalsPct": 130.1,
+        "yoyRevenuePct": 172.9,
+        "intlSharePct": 1,
+        "domesticSharePct": 99,
+        "occupancyPct": 35.5,
+        "topSeasonMonths": [
+          11,
+          12,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "chai-nat",
+      "name": "Chai Nat",
+      "nameTh": "ชัยนาท",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 921563,
+        "domesticArrivals": 916761,
+        "intlArrivals": 4802,
+        "revenueMillionThb": 1230.4,
+        "yoyArrivalsPct": 59,
+        "yoyRevenuePct": 70.8,
+        "intlSharePct": 0.5,
+        "domesticSharePct": 99.5,
+        "occupancyPct": 43.4,
+        "topSeasonMonths": [
+          2,
+          4,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "kalasin",
+      "name": "Kalasin",
+      "nameTh": "กาฬสินธุ์",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 869387,
+        "domesticArrivals": 851358,
+        "intlArrivals": 18029,
+        "revenueMillionThb": 1034.6,
+        "yoyArrivalsPct": 78.4,
+        "yoyRevenuePct": 126.7,
+        "intlSharePct": 2.1,
+        "domesticSharePct": 97.9,
+        "occupancyPct": 50.6,
+        "topSeasonMonths": [
+          8,
+          9,
+          7
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "ang-thong",
+      "name": "Ang Thong",
+      "nameTh": "อ่างทอง",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 852789,
+        "domesticArrivals": 848052,
+        "intlArrivals": 4737,
+        "revenueMillionThb": 977.3,
+        "yoyArrivalsPct": 69.6,
+        "yoyRevenuePct": 105.2,
+        "intlSharePct": 0.6,
+        "domesticSharePct": 99.4,
+        "occupancyPct": 39.7,
+        "topSeasonMonths": [
+          2,
+          1,
+          3
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "si-sa-ket",
+      "name": "Si Sa Ket",
+      "nameTh": "ศรีสะเกษ",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 825034,
+        "domesticArrivals": 820844,
+        "intlArrivals": 4190,
+        "revenueMillionThb": 988.5,
+        "yoyArrivalsPct": 16.6,
+        "yoyRevenuePct": 25.7,
+        "intlSharePct": 0.5,
+        "domesticSharePct": 99.5,
+        "occupancyPct": 43,
+        "topSeasonMonths": [
+          1,
+          3,
+          2
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "kamphaeng-phet",
+      "name": "Kamphaeng Phet",
+      "nameTh": "กำแพงเพชร",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 802877,
+        "domesticArrivals": 774958,
+        "intlArrivals": 27919,
+        "revenueMillionThb": 1500.5,
+        "yoyArrivalsPct": 40,
+        "yoyRevenuePct": 64.2,
+        "intlSharePct": 3.5,
+        "domesticSharePct": 96.5,
+        "occupancyPct": 35.8,
+        "topSeasonMonths": [
+          12,
+          11,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "maha-sarakham",
+      "name": "Maha Sarakham",
+      "nameTh": "มหาสารคาม",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 788315,
+        "domesticArrivals": 777656,
+        "intlArrivals": 10659,
+        "revenueMillionThb": 769,
+        "yoyArrivalsPct": 141.6,
+        "yoyRevenuePct": 102.3,
+        "intlSharePct": 1.4,
+        "domesticSharePct": 98.6,
+        "occupancyPct": 53.5,
+        "topSeasonMonths": [
+          3,
+          12,
+          11
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "bueng-kan",
+      "name": "Bueng Kan",
+      "nameTh": "บึงกาฬ",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 777004,
+        "domesticArrivals": 750387,
+        "intlArrivals": 26617,
+        "revenueMillionThb": 1063.4,
+        "yoyArrivalsPct": 56.9,
+        "yoyRevenuePct": 71.3,
+        "intlSharePct": 3.4,
+        "domesticSharePct": 96.6,
+        "occupancyPct": 52.5,
+        "topSeasonMonths": [
+          1,
+          12,
+          11
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "roi-et",
+      "name": "Roi Et",
+      "nameTh": "ร้อยเอ็ด",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 759401,
+        "domesticArrivals": 749635,
+        "intlArrivals": 9766,
+        "revenueMillionThb": 995.1,
+        "yoyArrivalsPct": 74.5,
+        "yoyRevenuePct": 87.5,
+        "intlSharePct": 1.3,
+        "domesticSharePct": 98.7,
+        "occupancyPct": 43.3,
+        "topSeasonMonths": [
+          12,
+          10,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "phichit",
+      "name": "Phichit",
+      "nameTh": "พิจิตร",
+      "region": "North",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 731836,
+        "domesticArrivals": 730470,
+        "intlArrivals": 1366,
+        "revenueMillionThb": 1269.1,
+        "yoyArrivalsPct": 53.2,
+        "yoyRevenuePct": 74.9,
+        "intlSharePct": 0.2,
+        "domesticSharePct": 99.8,
+        "occupancyPct": 49.2,
+        "topSeasonMonths": [
+          12,
+          11,
+          9
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "sing-buri",
+      "name": "Sing Buri",
+      "nameTh": "สิงห์บุรี",
+      "region": "Central",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 684254,
+        "domesticArrivals": 678306,
+        "intlArrivals": 5948,
+        "revenueMillionThb": 864.1,
+        "yoyArrivalsPct": 57.6,
+        "yoyRevenuePct": 58.7,
+        "intlSharePct": 0.9,
+        "domesticSharePct": 99.1,
+        "occupancyPct": 40.6,
+        "topSeasonMonths": [
+          4,
+          5,
+          6
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "ranong",
+      "name": "Ranong",
+      "nameTh": "ระนอง",
+      "region": "South",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 658875,
+        "domesticArrivals": 645190,
+        "intlArrivals": 13685,
+        "revenueMillionThb": 1366.8,
+        "yoyArrivalsPct": 117.7,
+        "yoyRevenuePct": 78.6,
+        "intlSharePct": 2.1,
+        "domesticSharePct": 97.9,
+        "occupancyPct": 50.4,
+        "topSeasonMonths": [
+          2,
+          3,
+          1
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "narathiwat",
+      "name": "Narathiwat",
+      "nameTh": "นราธิวาส",
+      "region": "South",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 602990,
+        "domesticArrivals": 367427,
+        "intlArrivals": 235563,
+        "revenueMillionThb": 1279.3,
+        "yoyArrivalsPct": 251.8,
+        "yoyRevenuePct": 263.8,
+        "intlSharePct": 39.1,
+        "domesticSharePct": 60.9,
+        "occupancyPct": 49.4,
+        "topSeasonMonths": [
+          2,
+          3,
+          4
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "yasothon",
+      "name": "Yasothon",
+      "nameTh": "ยโสธร",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 468595,
+        "domesticArrivals": 466882,
+        "intlArrivals": 1713,
+        "revenueMillionThb": 461,
+        "yoyArrivalsPct": 51.2,
+        "yoyRevenuePct": 55.8,
+        "intlSharePct": 0.4,
+        "domesticSharePct": 99.6,
+        "occupancyPct": 38.3,
+        "topSeasonMonths": [
+          1,
+          12,
+          5
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "pattani",
+      "name": "Pattani",
+      "nameTh": "ปัตตานี",
+      "region": "South",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 328929,
+        "domesticArrivals": 288758,
+        "intlArrivals": 40171,
+        "revenueMillionThb": 627.2,
+        "yoyArrivalsPct": 140.2,
+        "yoyRevenuePct": 82.1,
+        "intlSharePct": 12.2,
+        "domesticSharePct": 87.8,
+        "occupancyPct": 42.3,
+        "topSeasonMonths": [
+          2,
+          3,
+          4
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "nong-bua-lamphu",
+      "name": "Nong Bua Lamphu",
+      "nameTh": "หนองบัวลำภู",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 305723,
+        "domesticArrivals": 303604,
+        "intlArrivals": 2119,
+        "revenueMillionThb": 235.9,
+        "yoyArrivalsPct": 61.1,
+        "yoyRevenuePct": 72.6,
+        "intlSharePct": 0.7,
+        "domesticSharePct": 99.3,
+        "occupancyPct": 35.2,
+        "topSeasonMonths": [
+          12,
+          11,
+          10
+        ]
+      },
+      "confidence": "measured"
+    },
+    {
+      "id": "amnat-charoen",
+      "name": "Amnat Charoen",
+      "nameTh": "อำนาจเจริญ",
+      "region": "Northeast",
+      "supplyChainId": null,
+      "period": {
+        "currentFrom": "2022-08",
+        "currentTo": "2023-07",
+        "priorFrom": "2021-08",
+        "priorTo": "2022-07"
+      },
+      "stats": {
+        "arrivals": 236688,
+        "domesticArrivals": 232349,
+        "intlArrivals": 4339,
+        "revenueMillionThb": 263,
+        "yoyArrivalsPct": 36.7,
+        "yoyRevenuePct": 47,
+        "intlSharePct": 1.8,
+        "domesticSharePct": 98.2,
+        "occupancyPct": 34,
+        "topSeasonMonths": [
+          12,
+          11,
+          10
+        ]
+      },
+      "confidence": "measured"
+    }
+  ]
+}

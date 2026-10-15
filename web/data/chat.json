@@ -1,0 +1,36 @@
+{
+  "demoThread": [
+    {
+      "id": "m1",
+      "from": "guest",
+      "sourceLang": "en",
+      "targetLang": "th",
+      "sourceText": "Hi! Can we join the indigo workshop this Saturday — and is the kids nature walk open too?",
+      "translatedText": "สวัสดีค่ะ! เราเข้าร่วมเวิร์กช็อปย้อมครามวันเสาร์นี้ได้ไหมคะ — แล้วเดินธรรมชาติกับเด็กๆ ยังว่างไหมคะ?"
+    },
+    {
+      "id": "m2",
+      "from": "host",
+      "sourceLang": "th",
+      "targetLang": "en",
+      "sourceText": "ได้เลยจ้า มาถึงบ้านก่อน 09:00 น. จะได้กินข้าวเช้าด้วยกัน เดินธรรมชาติช่วงบ่ายได้ด้วยนะ",
+      "translatedText": "Of course! Please arrive by 09:00 so we can share breakfast together. The kids nature walk works in the afternoon too."
+    },
+    {
+      "id": "m3",
+      "from": "guest",
+      "sourceLang": "en",
+      "targetLang": "th",
+      "sourceText": "Perfect — is the river house available the night before? Also curious about the wellness circle (Demo) for my friend who feels lonely.",
+      "translatedText": "ดีมากเลย — บ้านริมน้ำว่างคืนก่อนหน้านี้ไหมคะ? แล้วสนใจวงแชร์สุขภาพใจ (เดโม) สำหรับเพื่อนที่เหงาด้วยค่ะ"
+    },
+    {
+      "id": "m4",
+      "from": "host",
+      "sourceLang": "th",
+      "targetLang": "en",
+      "sourceText": "ว่างจ้า ห้องริมน้ำจองให้ได้ และวงแชร์เป็นเซฟสเปซเดโม ไม่ใช่คลินิก — มาเมื่อพร้อมพูดก็พอ",
+      "translatedText": "Yes — we can hold the river room. The sharing circle is a safe-space Demo, not a clinic — come when you're ready to speak, or just listen."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+# BAANYARD — Apache / cPanel helpers for HTTPS + camera
+# Hosted at https://campong.online/projects/baanyard/ (not site root).
+# On nginx (campong.online) this file is ignored; HTTPS + headers are on the host.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /projects/baanyard/
+
+  # HTTP → HTTPS without stripping the subdirectory (REQUEST_URI is preserved)
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# JSON (and common static) MIME types
+<IfModule mod_mime.c>
+  AddType application/json .json
+  AddType application/manifest+json .webmanifest
+  AddType image/svg+xml .svg
+  AddType image/webp .webp
+</IfModule>
+
+# Security headers — allow camera/mic for getUserMedia on this origin
+<IfModule mod_headers.c>
+  Header always set Permissions-Policy "camera=(self), microphone=(self), geolocation=()"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+
+# Optional: cache static assets lightly (safe for demo JSON/images)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  # Short CSS/JS cache so re-uploads show on phones without waiting days
+  ExpiresByType text/css "access plus 1 hour"
+  ExpiresByType application/javascript "access plus 1 hour"
+  ExpiresByType application/json "access plus 1 hour"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType application/manifest+json "access plus 1 day"
+</IfModule>

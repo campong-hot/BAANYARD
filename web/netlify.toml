@@ -1,0 +1,13 @@
+# Optional — if deploying the `web/` folder on Netlify
+# Publish directory = this folder (or set Base directory to `web` from repo root).
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "camera=(self), microphone=(self), geolocation=()"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+
+# Netlify provides HTTPS automatically; force HTTPS in Site settings → Domain management.
+# Point a custom domain (campong.co.th) and wait for the certificate to show as Issued.

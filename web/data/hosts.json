@@ -1,0 +1,92 @@
+[
+  {
+    "id": "host-mae-wan",
+    "name": "Mae Wan",
+    "nameTh": "แม่หวาน",
+    "communityId": "sri-songkhram",
+    "primaryLanguage": "th",
+    "bio": "Indigo artisan hosting relatives-style stays by the river.",
+    "bioTh": "ช่างย้อมคราม เปิดบ้านต้อนรับแบบญาติริมน้ำ",
+    "simulated": true
+  },
+  {
+    "id": "host-boun",
+    "name": "Boun",
+    "nameTh": "บุญ",
+    "communityId": "luang-prabang",
+    "primaryLanguage": "en",
+    "bio": "Village cook sharing river recipes with travelers.",
+    "bioTh": "พ่อครัวหมู่บ้านแบ่งปันสูตรอาหารริมน้ำ",
+    "simulated": true
+  },
+  {
+    "id": "host-dr-nim",
+    "name": "Nim",
+    "nameTh": "นิ่ม",
+    "communityId": "sri-songkhram",
+    "primaryLanguage": "th",
+    "bio": "Community psychologist hosting joyful outdoor wellness & peer circles (not a clinic).",
+    "bioTh": "นักจิตวิทยาชุมชน จัดกิจกรรมสุขภาพใจกลางแจ้งและวงแชร์ประสบการณ์ (ไม่ใช่คลินิก)",
+    "simulated": true
+  },
+  {
+    "id": "host-lung-chai",
+    "name": "Lung Chai",
+    "nameTh": "ลุงชัย",
+    "communityId": "chiang-khan",
+    "primaryLanguage": "th",
+    "bio": "Riverside fisher who teaches guests to catch and cook fish with the family.",
+    "bioTh": "ชาวประมงริมโขง สอนหาปลาและทำอาหารกับครอบครัว",
+    "simulated": true
+  },
+  {
+    "id": "host-mae-dao",
+    "name": "Mae Dao",
+    "nameTh": "แม่ดาว",
+    "communityId": "nan-orchard",
+    "primaryLanguage": "th",
+    "bio": "Orchard host for fruit picking, garden cocoa, and warm coffee mornings.",
+    "bioTh": "โฮสต์สวนผลไม้ พาเก็บผล ทำโกโก้จากสวน และชิมกาแฟอุ่นๆ",
+    "simulated": true
+  },
+  {
+    "id": "host-kru-pla",
+    "name": "Kru Pla",
+    "nameTh": "ครูปลา",
+    "communityId": "sri-songkhram",
+    "primaryLanguage": "th",
+    "bio": "Kids nature guide — walks, bamboo craft, and weaving workshops for little hands.",
+    "bioTh": "ไกด์ธรรมชาติสำหรับเด็ก — เดินป่า งานไผ่ และเวิร์กช็อปทอผ้าสำหรับมือน้อยๆ",
+    "simulated": true
+  },
+  {
+    "id": "host-aoy",
+    "name": "Aoy",
+    "nameTh": "ออย",
+    "communityId": "chiang-khan",
+    "primaryLanguage": "th",
+    "bio": "Evening porch musician — acoustic sets and sing-alongs for neighbors and guests.",
+    "bioTh": "นักดนตรีหน้าบ้านตอนเย็น — เซ็ตอคูสติกและร้องเพลงด้วยกันกับเพื่อนบ้าน",
+    "simulated": true
+  },
+  {
+    "id": "host-som",
+    "name": "Som",
+    "nameTh": "ส้ม",
+    "communityId": "phayao-lake",
+    "primaryLanguage": "th",
+    "bio": "Lake-side host for birdwatching, soft stretch, and quiet journaling mornings.",
+    "bioTh": "โฮสต์ริมกว๊าน พาดูนก ยืดเหยียดเบาๆ และเช้าเขียนไดอารี่อย่างสงบ",
+    "simulated": true
+  },
+  {
+    "id": "host-lin",
+    "name": "Lin",
+    "nameTh": "ลิน",
+    "communityId": "sapa",
+    "primaryLanguage": "en",
+    "bio": "Terrace guide sharing harvest seasons, herbal tea, and hillside storytelling.",
+    "bioTh": "ไกด์นาขั้นบันได แบ่งปันฤดูเก็บเกี่ยว ชาสมุนไพร และเรื่องเล่าบนเนิน",
+    "simulated": true
+  }
+]

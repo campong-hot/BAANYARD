@@ -1,0 +1,86 @@
+.h-scroll-rail {
+  position: relative;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.h-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.95rem;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.15rem 0.1rem 0.5rem;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  cursor: grab;
+}
+
+.h-scroll--dragging {
+  scroll-behavior: auto;
+  scroll-snap-type: none;
+  cursor: grabbing;
+  user-select: none;
+}
+
+.h-scroll::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.h-scroll > * {
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+.h-scroll-nav {
+  display: none;
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+  transform: translateY(-56%);
+  width: 2.35rem;
+  height: 2.35rem;
+  border: 1px solid var(--by-line-soft);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--by-indigo-deep);
+  font-size: 1.45rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: var(--by-shadow-sm);
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.h-scroll-nav:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.h-scroll-nav--prev {
+  left: 0.15rem;
+}
+
+.h-scroll-nav--next {
+  right: 0.15rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .h-scroll-rail--scrollable .h-scroll-nav {
+    display: inline-flex;
+  }
+
+  .h-scroll-rail--scrollable .h-scroll {
+    padding-inline: 2.4rem;
+  }
+}

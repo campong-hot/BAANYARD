@@ -1,0 +1,8 @@
+# campong.online overlay — localhost-only publish.
+# Keep in sync with docker-compose.yml (baanyard = 8502; 8501 is PRI).
+
+services:
+  baanyard:
+    ports: !override
+      - "127.0.0.1:8502:80"
+    restart: always
